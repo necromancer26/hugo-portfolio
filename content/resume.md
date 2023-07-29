@@ -33,7 +33,7 @@ type : "cv"
 {{< cv/experience
     name="Aigot SRL"
     date="June 2023 – Present"
-    title="DevOps Engineer Inter"
+    title="Intern DevOps Engineer"
     location="PISA, ITALY" >}}
 
 - Set up a server environment using Terraform, optimizing resource allocation and reducing manual configuration efforts.

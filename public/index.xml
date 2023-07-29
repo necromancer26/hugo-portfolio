@@ -1039,7 +1039,7 @@ features from popular themes and websites as listed below:&lt;/p&gt;
       <pubDate>Fri, 28 Jul 2023 23:04:43 +0100</pubDate>
 
       <guid>/resume/</guid>
-      <description>Experience Aigot SRL June 2023 – Present DevOps Engineer Inter PISA, ITALY Set up a server environment using Terraform, optimizing resource allocation and reducing manual configuration efforts.
+      <description>Experience Aigot SRL June 2023 – Present Intern DevOps Engineer PISA, ITALY Set up a server environment using Terraform, optimizing resource allocation and reducing manual configuration efforts.
 Deployed a Kubernetes cluster with Kubespray and Ansible, streamlining application management and enhancing scalability.
 Installed ArgoCD and Terraform, establishing an efficient DevOps pipeline for continuous integration and deployment, resulting in accelerated software delivery. Aigot SRL February 2023 – Present Fullstack Software Developer PISA, ITALY Utilizing ReactJS to consume backend APIs and optimizing data for improved usability in child components.</description>
       <content>&lt;!-- raw HTML omitted --&gt;
@@ -1058,7 +1058,7 @@ Installed ArgoCD and Terraform, establishing an efficient DevOps pipeline for co
   &lt;/div&gt;
 
   &lt;div class=&#34;row sub&#34;&gt;
-    &lt;span&gt;DevOps Engineer Inter&lt;/span&gt;
+    &lt;span&gt;Intern DevOps Engineer&lt;/span&gt;
     &lt;span&gt;PISA, ITALY&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
