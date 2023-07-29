@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome 👋 on Khalil Chettaoui</title>
-    <link>http://khalil.ninja/</link>
+    <link>/</link>
     <description>Recent content in Welcome 👋 on Khalil Chettaoui</description>
     <generator>Hugo -- gohugo.io</generator>
       <language>en</language>
       <copyright>© Khalil Chettaoui</copyright>
-      <lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://khalil.ninja/index.xml" rel="self" type="application/rss+xml" />
+      <lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
