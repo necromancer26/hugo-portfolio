@@ -51,7 +51,7 @@ type : "cv"
 
 - Designed a landing page for an environmental association
 - Established a CI/CD pipeline in order to offer a better experience for future developers who will work on the website
-- Managed the server
+- Developed Cityzen landing page using ViteJS, Vue3, TailwindCSS and DaisyUI.
 
 {{< cv/skills
     technologies="C, Python, DPDK, NUMA, Data-Plane, TCP/IP, PostgreSQL" >}}
@@ -111,9 +111,9 @@ type : "cv"
 
 {{< cv/skills
     languages="PHP, JavaScript, Java, C++/C, Python"
-    frameworks= "React, Vue, Symfony, ExpressJS, NextJS, Spring Boot, Tailwind, Redux"
+    frameworks= "React, Vue, Angular, NextJS, NodeJS, Spring Boot, Tailwind, Redux..."
     database= "MySQL, PostgreSQL, MongoDB, Firebase, Oracle"
-    cloud="AWS, Azure, DigitalOcean ,OpenStack, Kubernetes, Docker, Linux Administration, Terraform" >}}
+    cloud="AWS, Azure, DigitalOcean ,OpenStack, Kubernetes, Docker, Linux Administration, Ansible, Terraform" >}}
 
 <!-- ## Hobbies
 
