@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/cpu-scheduling/</loc>
+    <lastmod>2023-07-29T13:37:13+01:00</lastmod>
+  </url><url>
+    <loc>/posts/docker/</loc>
+    <lastmod>2023-07-29T13:36:19+01:00</lastmod>
+  </url><url>
+    <loc>/posts/cloud-computing-pillars/</loc>
+    <lastmod>2023-07-29T13:34:51+01:00</lastmod>
+  </url><url>
+    <loc>/posts/openstack-services/</loc>
+    <lastmod>2023-07-29T13:34:01+01:00</lastmod>
+  </url><url>
     <loc>/slides/hugo-xterm-slides/</loc>
     <lastmod>2023-07-29T10:15:37+01:00</lastmod>
   </url><url>
@@ -25,9 +37,6 @@
   </url><url>
     <loc>/docs/iac/iac-terraform-az/</loc>
     <lastmod>2023-07-28T22:44:23+01:00</lastmod>
-  </url><url>
-    <loc>/posts/my-first-post/</loc>
-    <lastmod>2023-07-28T22:42:26+01:00</lastmod>
   </url><url>
     <loc>/</loc>
     <lastmod>2023-07-15T00:00:00+00:00</lastmod>

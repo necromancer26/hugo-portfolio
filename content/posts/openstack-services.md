@@ -1,12 +1,12 @@
 +++
-title = "My First Post"
-description = "my first post today"
-date = "2023-07-28T22:42:26+01:00"
+title = "Openstack Services"
+description = ""
+date = "2023-07-29T13:34:01+01:00"
 tags = ["", ""]
 categories = ["", ""]
 draft = true
 +++
-# OPENSTACK
+# Openstack
 An OpenStack deployment contains a number of components providing APIs to access infrastructure resources. This page lists the various services that can be deployed to provide such resources to cloud end users.
 # Compute
 ## NOVA(Compute service)

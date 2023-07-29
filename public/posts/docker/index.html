@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<title>Docker :: Khalil Chettaoui</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Docker 🐳 Why docker and why now?
+Isolation: containers give us similar isolation to vms, containers have their own ip address, filesystem, process space, without the need of full operating system. Environment: containers remove the need to worry about required dependencies and environment required to run the app as it offers a standardized way to run an application no matter the plateform Speed: moving from host to container we can isolate the workloads inside them and safely run the together on the same kernel." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="../../posts/docker/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="mani_d2" />
+<meta property="og:locale" content="en" />
+<meta property="og:title" content="Docker :: Khalil Chettaoui" />
+<meta property="og:description" content="Docker 🐳 Why docker and why now?
+Isolation: containers give us similar isolation to vms, containers have their own ip address, filesystem, process space, without the need of full operating system. Environment: containers remove the need to worry about required dependencies and environment required to run the app as it offers a standardized way to run an application no matter the plateform Speed: moving from host to container we can isolate the workloads inside them and safely run the together on the same kernel." />
+  <meta property="og:type" content="article" />
+    <meta property="article:section" content="" />
+    <meta property="article:section" content="" />
+    <meta property="article:published_time" content="2023-07-29 13:36:19 &#43;0100 CET" />
+    <meta property="article:modified_time" content="2023-07-29 13:36:19 IST" />
+  <meta property="article:author" content="Khalil Chettaoui" />
+<meta property="og:url" content="/posts/docker/" />
+<meta property="og:site_name" content="Khalil Chettaoui" />
+<meta property="og:image" content="https://manid2.github.io/hugo-xterm/images/xterm.png" />
+<meta property="og:image:width" content="2048" />
+<meta property="og:image:height" content="1024" />
+<link rel="shortcut icon" href="https://manid2.github.io/hugo-xterm/images/xterm.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto+Slab:wght@300;400;500&family=Ubuntu+Mono:ital@0;1&display=swap"
+  rel="stylesheet"
+/>
+<link href="../../posts/docker/" rel="alternate" type="application/rss+xml" title="Khalil Chettaoui" />
+<link rel="stylesheet" href="../../styles.e2a6ce1c89191ece89123d96b7388ace9704576850bb0e1f17d6639fd8da6cb5.css" integrity="sha256-4qbOHIkZHs6JEj2WtziKzpcEV2hQuw4fF9Zjn9jabLU=" />
+</head>
+
+  <body><div class="theme-container">
+        <div class="container center">
+          <header class="site-header">
+<nav class="navbar">
+  <div class="navbar__first">
+    <ul class="navbar__list borders">
+      <li><a href="../../">Home</a></li>
+      <li>
+        <button class="theme-toggle transparent"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+</button>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar__separator"></div>
+    <div class="navbar__last">
+      <ul class="navbar__list borders menu--desktop">
+            <li><a href="../../about/">About</a></li>
+            <li><a href="../../docs/">Docs</a></li>
+            <li><a href="../../posts/">Posts</a></li>
+            <li><a href="../../resume/">Resume</a></li></ul>
+      <ul class="menu menu--mobile">
+        <li class="menu-trigger">===</li>
+        <li>
+          <ul class="menu-dropdown">
+                <li><a href="../../about/">About</a></li>
+                <li><a href="../../docs/">Docs</a></li>
+                <li><a href="../../posts/">Posts</a></li>
+                <li><a href="../../resume/">Resume</a></li></ul>
+        </li>
+      </ul>
+    </div>
+</nav>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+    <a href="">Home</a>&nbsp;/&nbsp;
+        <a href="../../posts/">Posts</a>
+  </nav>
+</header>
+          <main class="site-main"><article class="post">
+    <header class="post-header">
+        <h1 class="post-title"><a href="../../posts/docker/">Docker</a></h1>
+        <address class="post-meta">
+            <time pubdate datetime="2023-07-29 13:36:19 IST">
+              Published on
+              2023-07-29 13:36:19 IST
+            </time>
+            <time pubdate datetime="2023-07-29 13:36:19 IST"> last modified 2023-07-29 13:36:19 IST. </time>
+        </address>
+        <p class="post-tags">Tags:&nbsp;#<a href="tags/"></a>&nbsp;#<a href="tags/"></a>&nbsp;</p>
+    </header>
+      <div class="post-toc">
+        <h2>Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#containers-vs-vms">Containers vs. VMs</a></li>
+  </ul>
+</nav>
+      </div>
+      <div class="post-content">
+        
+<h1 id="docker-">
+  Docker 🐳
+  <a href="#docker-" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+<p>Why docker and why now?</p>
+<ul>
+<li>Isolation: containers give us similar isolation to vms, containers have their own ip address, filesystem, process space, without the need of full operating system.</li>
+<li>Environment: containers remove the need to worry about required dependencies and environment required to run the app as it offers a standardized way to run an application no matter the plateform</li>
+<li>Speed: moving from host to container we can isolate the workloads inside them and safely run the together on the same kernel.</li>
+</ul>
+
+<h1 id="image-vs-container">
+  Image vs. Container
+  <a href="#image-vs-container" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+<ul>
+<li>An image is the application we want to run</li>
+<li>A container is an instance of that image running as a process</li>
+<li>You can have many containers running off the same image</li>
+<li>Docker default image registry is called &ldquo;Docker Hub&rdquo;</li>
+</ul>
+
+<h1 id="docker-basics">
+  Docker basics
+  <a href="#docker-basics" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+<ol>
+<li>docker looks for an image locally in cache, doesnt find anything</li>
+<li>then looks in remote repositoriy (default to docker hub)</li>
+<li>downloads the latest version</li>
+<li>creates a new container 🏺 based on that image</li>
+<li>gives it virtual ip on a private network inside docker engine</li>
+<li>opens up port 80 on host and forwards to port 80 in container</li>
+<li>starts container by using CMD in the image DockerFile
+<strong>Running a container</strong>
+<code>docker container run --publish 80:80 nginx</code>
+this command fetches an nginx image from the registry and keeps it running on the background.
+to fix the problem we add the <code>--detach</code> flag before nginx to keep the container running in the background as a process.
+<code>docker container run --publish 80:80 --detach nginx</code>
+<em>output</em>:
+<code>3ed66a4947739...</code>
+<strong>Listing container</strong>
+<code>docker container ls</code>
+this command only shows by default running containers
+to list all container use :
+<code>docker container ls -a</code>
+<strong>Stopping container</strong>:
+<code>docker container stop &lt;container-uid/name&gt;</code>
+<strong>Naming a container</strong>:
+<code>docker container run --publish 80:80 --detach --name webhost nginx</code>
+<strong>Removing a container</strong>:
+<code>docker container rm &lt;container-name&gt;</code></li>
+</ol>
+
+<h2 id="containers-vs-vms">
+  Containers vs. VMs
+  <a href="#containers-vs-vms" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p><strong>Containers arent Mini-VM&rsquo;s</strong> even though they are often compared together.</p>
+<ul>
+<li>Containers are just processes</li>
+<li>Limited to what ressource they can access</li>
+<li>Exit when process stops</li>
+</ul>
+
+      </div>
+
+
+    <footer class="post-footer"><div class="pagination">
+    <div class="pagination-title">
+      <span class="pagination-title-h">Read other posts</span>
+      <hr />
+    </div>
+    <div class="buttons fill">
+        <a href="../../posts/cloud-computing-pillars/" class="button">
+          <span class="icon">&lArr;</span>
+          <span class="label">Cloud Computing Pillars</span>
+        </a>
+        <a href="../../posts/cpu-scheduling/" class="button right">
+          <span class="label">Cpu Scheduling</span>
+          <span class="icon right">&rArr;</span>
+        </a>
+    </div>
+  </div>
+
+    </footer>
+  </article>
+          </main>
+          <footer class="site-footer">
+<p class="buildinfo">
+  <time datetime="2023-07-29 13:37:24 IST">Site built on: 2023-07-29 13:37:24 IST</time>
+</p>
+<div class="copyright">
+  <p>© Khalil Chettaoui
+      2023</p>
+  <nav class="navbar">
+    <ul class="navbar__list">
+      <li><a href="../../posts/index.xml">RSS</a></li>
+      <li><a href="../../sitemap.xml">Sitemap</a></li>
+    </ul>
+  </nav>
+</div>
+<p class="themeinfo">Powered by <a href="https://gohugo.io">Hugo</a>, using theme <a href="https://manid2.github.io/hugo-xterm/">Hugo Xterm</a>.</p>
+</footer>
+        </div>
+      </div><script type="text/javascript" src="../../bundle.min.js"></script></body>
+</html>
