@@ -1067,7 +1067,7 @@ features from popular themes and websites as listed below:&lt;/p&gt;
       <pubDate>Fri, 28 Jul 2023 23:04:43 +0100</pubDate>
 
       <guid>/resume/</guid>
-      <description>Experience Aigot SRL February 2021 – Present Fullstack Software Developer PISA, ITALY Working as part of Data-Plane team to develop and maintain features for ActiveLogic product which processes internet packets. Association Zone Verte El Menzah February 2021 – Present Software Developer Tunis, Tunisia Working as part of Data-Plane team to develop and maintain features for ActiveLogic product which processes internet packets. Polydioms February 2021 – Present Freelance Software Engineer PARIS, FRANCE Working as part of Data-Plane team to develop and maintain features for ActiveLogic product which processes internet packets.</description>
+      <description>Experience Aigot SRL February 2021 – Present Fullstack Software Developer PISA, ITALY Utilizing ReactJS to consume backend APIs and optimizing data for improved usability in child components. Developing API endpoints and schemas using mongoose for efficient data management. Implementing cloud services such as AWS S3 object storage to enhance asset and user resource storage. Conducting rigorous debugging and troubleshooting to identify and resolve various bugs and malfunctions. Association Zone Verte El Menzah February 2021 – Present Software Developer Tunis, Tunisia Designed a landing page for an environmental association Established a CI/CD pipeline in order to offer a better experience for future developers who will work on the website Managed the server Polydioms February 2021 – Present Freelance Software Engineer PARIS, FRANCE Successfully migrated the WordPress website server from Inmotion Hosting to DigitalOcean, optimizing its performance and reliability.</description>
       <content>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -1090,8 +1090,10 @@ features from popular themes and websites as listed below:&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Working as part of Data-Plane team to develop and maintain features for
-ActiveLogic product which processes internet packets.&lt;/li&gt;
+&lt;li&gt;Utilizing ReactJS to consume backend APIs and optimizing data for improved usability in child components.&lt;/li&gt;
+&lt;li&gt;Developing API endpoints and schemas using mongoose for efficient data management.&lt;/li&gt;
+&lt;li&gt;Implementing cloud services such as AWS S3 object storage to enhance asset and user resource storage.&lt;/li&gt;
+&lt;li&gt;Conducting rigorous debugging and troubleshooting to identify and resolve various bugs and malfunctions.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;table class=&#34;cv-skills&#34;&gt;&lt;/table&gt;
 &lt;div class=&#34;cv-experience&#34;&gt;
@@ -1107,8 +1109,9 @@ ActiveLogic product which processes internet packets.&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Working as part of Data-Plane team to develop and maintain features for
-ActiveLogic product which processes internet packets.&lt;/li&gt;
+&lt;li&gt;Designed a landing page for an environmental association&lt;/li&gt;
+&lt;li&gt;Established a CI/CD pipeline in order to offer a better experience for future developers who will work on the website&lt;/li&gt;
+&lt;li&gt;Managed the server&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;table class=&#34;cv-skills&#34;&gt;&lt;/table&gt;
 &lt;div class=&#34;cv-experience&#34;&gt;
@@ -1124,8 +1127,9 @@ ActiveLogic product which processes internet packets.&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Working as part of Data-Plane team to develop and maintain features for
-ActiveLogic product which processes internet packets.&lt;/li&gt;
+&lt;li&gt;Successfully migrated the WordPress website server from Inmotion Hosting to DigitalOcean, optimizing its performance and reliability.&lt;/li&gt;
+&lt;li&gt;Configured and secured a virtual private server (VPS) specifically tailored for the WordPress website, mitigating the risk of common port abuse.&lt;/li&gt;
+&lt;li&gt;Managed the domain name, efficiently configuring DNS records to redirect traffic from Google to DigitalOcean, encompassing NS, MX , and other relevant DNS records.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;table class=&#34;cv-skills&#34;&gt;&lt;/table&gt;
 &lt;div class=&#34;cv-experience&#34;&gt;
@@ -1141,8 +1145,9 @@ ActiveLogic product which processes internet packets.&lt;/li&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Working as part of Data-Plane team to develop and maintain features for
-ActiveLogic product which processes internet packets.&lt;/li&gt;
+&lt;li&gt;Integrated RESTful APIs seamlessly into the front-end using the Axios library, enhancing data communication and application functionality.&lt;/li&gt;
+&lt;li&gt;Translated Figma designs into JSX components, ensuring visually appealing user interfaces.&lt;/li&gt;
+&lt;li&gt;Implemented the Redux library to establish a structured data flow and efficient state management, improving code organization and maintainability.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;table class=&#34;cv-skills&#34;&gt;&lt;/table&gt;
 &lt;div class=&#34;cv-experience&#34;&gt;
@@ -1158,10 +1163,10 @@ ActiveLogic product which processes internet packets.&lt;/li&gt;
 &lt;/div&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Worked in Device Layer development team where I designed &amp;amp; implemented
-custom size scan for Toshiba Multi-Functional Peripheral (MFP). With this
-feature the users can scan a non-standard paper sizes such as identity
-cards, bills and receipts.&lt;/li&gt;
+&lt;li&gt;Designed the complete UI/UX of Idania’s landing page following an iterative communicative approach as well as presenting the progress done every week for feedback.&lt;/li&gt;
+&lt;li&gt;Maintained the website and prepared the code base for eventual future use cases (Preparing a blog section).&lt;/li&gt;
+&lt;li&gt;Implemented MailChimp API for for newsletter management.&lt;/li&gt;
+&lt;li&gt;Consumed backend APIS using axios library.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;table class=&#34;cv-skills&#34;&gt;&lt;/table&gt;
 

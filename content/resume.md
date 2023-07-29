@@ -36,8 +36,10 @@ type : "cv"
     title="Fullstack Software Developer"
     location="PISA, ITALY" >}}
 
-- Working as part of Data-Plane team to develop and maintain features for
-  ActiveLogic product which processes internet packets.
+- Utilizing ReactJS to consume backend APIs and optimizing data for improved usability in child components.
+- Developing API endpoints and schemas using mongoose for efficient data management.
+- Implementing cloud services such as AWS S3 object storage to enhance asset and user resource storage.
+- Conducting rigorous debugging and troubleshooting to identify and resolve various bugs and malfunctions.
 
 {{< cv/skills
     technologies="C, Python, DPDK, NUMA, Data-Plane, TCP/IP, PostgreSQL" >}}
@@ -47,8 +49,9 @@ type : "cv"
     title="Software Developer"
     location="Tunis, Tunisia" >}}
 
-- Working as part of Data-Plane team to develop and maintain features for
-  ActiveLogic product which processes internet packets.
+- Designed a landing page for an environmental association
+- Established a CI/CD pipeline in order to offer a better experience for future developers who will work on the website
+- Managed the server
 
 {{< cv/skills
     technologies="C, Python, DPDK, NUMA, Data-Plane, TCP/IP, PostgreSQL" >}}
@@ -58,8 +61,9 @@ type : "cv"
     title="Freelance Software Engineer"
     location="PARIS, FRANCE" >}}
 
-- Working as part of Data-Plane team to develop and maintain features for
-  ActiveLogic product which processes internet packets.
+- Successfully migrated the WordPress website server from Inmotion Hosting to DigitalOcean, optimizing its performance and reliability.
+- Configured and secured a virtual private server (VPS) specifically tailored for the WordPress website, mitigating the risk of common port abuse.
+- Managed the domain name, efficiently configuring DNS records to redirect traffic from Google to DigitalOcean, encompassing NS, MX , and other relevant DNS records.
 
 {{< cv/skills
     technologies="C, Python, DPDK, NUMA, Data-Plane, TCP/IP, PostgreSQL" >}}
@@ -69,8 +73,9 @@ type : "cv"
     title="Frontend Developer"
     location="PISA, ITALY" >}}
 
-- Working as part of Data-Plane team to develop and maintain features for
-  ActiveLogic product which processes internet packets.
+- Integrated RESTful APIs seamlessly into the front-end using the Axios library, enhancing data communication and application functionality.
+- Translated Figma designs into JSX components, ensuring visually appealing user interfaces.
+- Implemented the Redux library to establish a structured data flow and efficient state management, improving code organization and maintainability.
 
 {{< cv/skills
     technologies="C, Python, DPDK, NUMA, Data-Plane, TCP/IP, PostgreSQL" >}}
@@ -81,10 +86,10 @@ type : "cv"
     title="Freelance Web Developer"
     location="HÄRNÖSAND, SWEDEN" >}}
 
-- Worked in Device Layer development team where I designed & implemented
-  custom size scan for Toshiba Multi-Functional Peripheral (MFP). With this
-  feature the users can scan a non-standard paper sizes such as identity
-  cards, bills and receipts.
+- Designed the complete UI/UX of Idania’s landing page following an iterative communicative approach as well as presenting the progress done every week for feedback. 
+- Maintained the website and prepared the code base for eventual future use cases (Preparing a blog section). 
+- Implemented MailChimp API for for newsletter management.
+- Consumed backend APIS using axios library.
 
 {{< cv/skills
     technologies="C++, C, JPEG, PDF, OpenCV, Linux, Embedded Systems" >}}
