@@ -1,0 +1,6 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/xterm"]
+	path = themes/xterm
+	url = git@github.com:manid2/hugo-xterm.git
