@@ -912,34 +912,6 @@ Note that what we’re talking about here is simply a &lt;em&gt;catalog&lt;/em&
 </content>
     </item>
     <item>
-      <title>Hugo Xterm Slides</title>
-      <link>/slides/hugo-xterm-slides/</link>
-      <pubDate>Sat, 29 Jul 2023 10:15:37 +0100</pubDate>
-
-      <guid>/slides/hugo-xterm-slides/</guid>
-      <description> Introduction Hugo theme for terminal users. Features Slides using reveal.js. Designed for blog and personal websites for professionals. Support for online CV and documentation. </description>
-      <content>
-&lt;h2 id=&#34;introduction&#34;&gt;
-  Introduction
-  &lt;a href=&#34;#introduction&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Hugo theme for terminal users.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;
-  Features
-  &lt;a href=&#34;#features&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Slides using &lt;a href=&#34;https://revealjs.com/&#34;&gt;reveal.js&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Designed for blog and personal websites for professionals.&lt;/li&gt;
-&lt;li&gt;Support for online CV and documentation.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </item>
-    <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Fri, 28 Jul 2023 23:14:46 +0100</pubDate>
@@ -1067,7 +1039,7 @@ features from popular themes and websites as listed below:&lt;/p&gt;
       <pubDate>Fri, 28 Jul 2023 23:04:43 +0100</pubDate>
 
       <guid>/resume/</guid>
-      <description>Experience Aigot SRL February 2021 – Present Fullstack Software Developer PISA, ITALY Utilizing ReactJS to consume backend APIs and optimizing data for improved usability in child components. Developing API endpoints and schemas using mongoose for efficient data management. Implementing cloud services such as AWS S3 object storage to enhance asset and user resource storage. Conducting rigorous debugging and troubleshooting to identify and resolve various bugs and malfunctions. Association Zone Verte El Menzah February 2021 – Present Software Developer Tunis, Tunisia Designed a landing page for an environmental association Established a CI/CD pipeline in order to offer a better experience for future developers who will work on the website Managed the server Polydioms February 2021 – Present Freelance Software Engineer PARIS, FRANCE Successfully migrated the WordPress website server from Inmotion Hosting to DigitalOcean, optimizing its performance and reliability.</description>
+      <description>Experience Aigot SRL February 2021 – Present Fullstack Software Developer PISA, ITALY Utilizing ReactJS to consume backend APIs and optimizing data for improved usability in child components. Developing API endpoints and schemas using mongoose for efficient data management. Implementing cloud services such as AWS S3 object storage to enhance asset and user resource storage. Conducting rigorous debugging and troubleshooting to identify and resolve various bugs and malfunctions. Association Zone Verte El Menzah February 2021 – Present Software Developer Tunis, Tunisia Designed a landing page for an environmental association Established a CI/CD pipeline in order to offer a better experience for future developers who will work on the website Developed Cityzen landing page using ViteJS, Vue3, TailwindCSS and DaisyUI.</description>
       <content>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -1111,7 +1083,7 @@ features from popular themes and websites as listed below:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Designed a landing page for an environmental association&lt;/li&gt;
 &lt;li&gt;Established a CI/CD pipeline in order to offer a better experience for future developers who will work on the website&lt;/li&gt;
-&lt;li&gt;Managed the server&lt;/li&gt;
+&lt;li&gt;Developed Cityzen landing page using ViteJS, Vue3, TailwindCSS and DaisyUI.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;table class=&#34;cv-skills&#34;&gt;&lt;/table&gt;
 &lt;div class=&#34;cv-experience&#34;&gt;
@@ -1205,7 +1177,7 @@ features from popular themes and websites as listed below:&lt;/p&gt;
 &lt;/h2&gt;
 &lt;table class=&#34;cv-skills&#34;&gt;&lt;tr&gt;
     &lt;td class=&#34;key&#34;&gt;Cloud&lt;/td&gt;
-    &lt;td class=&#34;val&#34;&gt;AWS, Azure, DigitalOcean ,OpenStack, Kubernetes, Docker, Linux Administration, Terraform&lt;/td&gt;
+    &lt;td class=&#34;val&#34;&gt;AWS, Azure, DigitalOcean ,OpenStack, Kubernetes, Docker, Linux Administration, Ansible, Terraform&lt;/td&gt;
   &lt;/tr&gt;&lt;tr&gt;
     &lt;td class=&#34;key&#34;&gt;Languages&lt;/td&gt;
     &lt;td class=&#34;val&#34;&gt;PHP, JavaScript, Java, C&amp;#43;&amp;#43;/C, Python&lt;/td&gt;
@@ -1214,7 +1186,7 @@ features from popular themes and websites as listed below:&lt;/p&gt;
     &lt;td class=&#34;val&#34;&gt;MySQL, PostgreSQL, MongoDB, Firebase, Oracle&lt;/td&gt;
   &lt;/tr&gt;&lt;tr&gt;
     &lt;td class=&#34;key&#34;&gt;Frameworks &amp; Libraries&lt;/td&gt;
-    &lt;td class=&#34;val&#34;&gt;React, Vue, Symfony, ExpressJS, NextJS, Spring Boot, Tailwind, Redux&lt;/td&gt;
+    &lt;td class=&#34;val&#34;&gt;React, Vue, Angular, NextJS, NodeJS, Spring Boot, Tailwind, Redux...&lt;/td&gt;
   &lt;/tr&gt;&lt;/table&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
