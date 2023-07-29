@@ -4,7 +4,7 @@ name: "Hugo Xterm"
 description: "Built using Hugo, Sass and RevealJs."
 type: "resume"
 date: 2023-07-28T23:04:43+01:00
-draft: true
+draft: false
 ---
 
 <!-- +++

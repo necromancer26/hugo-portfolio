@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides on Khalil Chettaoui</title>
+    <link>/slides/</link>
+    <description>Recent content in Slides on Khalil Chettaoui</description>
+    <generator>Hugo -- gohugo.io</generator>
+      <language>en</language>
+      <copyright>© Khalil Chettaoui</copyright>
+      <lastBuildDate>Sat, 29 Jul 2023 10:15:37 +0100</lastBuildDate><atom:link href="/slides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Xterm Slides</title>
+      <link>/slides/hugo-xterm-slides/</link>
+      <pubDate>Sat, 29 Jul 2023 10:15:37 +0100</pubDate>
+
+      <guid>/slides/hugo-xterm-slides/</guid>
+      <description> Introduction Hugo theme for terminal users. Features Slides using reveal.js. Designed for blog and personal websites for professionals. Support for online CV and documentation. </description>
+      <content>
+&lt;h2 id=&#34;introduction&#34;&gt;
+  Introduction
+  &lt;a href=&#34;#introduction&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo theme for terminal users.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;
+  Features
+  &lt;a href=&#34;#features&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Slides using &lt;a href=&#34;https://revealjs.com/&#34;&gt;reveal.js&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Designed for blog and personal websites for professionals.&lt;/li&gt;
+&lt;li&gt;Support for online CV and documentation.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+  </channel>
+</rss>
