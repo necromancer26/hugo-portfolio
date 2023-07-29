@@ -91,6 +91,312 @@
         <p class="post-tags">Tags:&nbsp;#<a href="tags/"></a>&nbsp;#<a href="tags/"></a>&nbsp;</p>
         <p class="post-description">my first post today</p>
     </header>
+      <div class="post-toc">
+        <h2>Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#novacompute-service">NOVA(Compute service)</a>
+      <ul>
+        <li><a href="#dependencies">Dependencies</a></li>
+        <li><a href="#tools-for-using-nova">Tools for using Nova</a></li>
+      </ul>
+    </li>
+    <li><a href="#zuncontainers-service">ZUN(Containers Service)</a>
+      <ul>
+        <li><a href="#dependencies-1">Dependencies</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#ironic-bare-metal-provisioning">IRONIC (Bare metal provisioning)</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#swift-object-store">SWIFT (Object store)</a></li>
+    <li><a href="#cinder-block-storage">CINDER (Block Storage)</a>
+      <ul>
+        <li><a href="#dependencies-2">Dependencies</a></li>
+        <li><a href="#tools-for-using-cinder">Tools for using cinder</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#neutron">NEUTRON</a>
+      <ul>
+        <li><a href="#dependencies-3">Dependencies</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#heat">HEAT</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#horizon">Horizon</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#glance-image-services">Glance (Image services)</a>
+      <ul>
+        <li><a href="#images">Images</a></li>
+        <li><a href="#metadata-definitions">Metadata Definitions</a></li>
+      </ul>
+    </li>
+    <li><a href="#keystone-identity-service">KEYSTONE (Identity service)</a>
+      <ul>
+        <li><a href="#tools-for-using-keystone">Tools for using keystone</a></li>
+        <li><a href="#advanced-features">Advanced features</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+      <div class="post-content">
+        
+<h1 id="openstack">
+  OPENSTACK
+  <a href="#openstack" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+<p>An OpenStack deployment contains a number of components providing APIs to access infrastructure resources. This page lists the various services that can be deployed to provide such resources to cloud end users.</p>
+
+<h1 id="compute">
+  Compute
+  <a href="#compute" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+
+<h2 id="novacompute-service">
+  NOVA(Compute service)
+  <a href="#novacompute-service" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Nova is the OpenStack project that provides a way to provision compute instances (aka virtual servers). Nova supports creating virtual machines, baremetal servers (through the use of ironic), and has limited support for system containers. Nova runs as a set of daemons on top of existing Linux servers to provide that service.</p>
+
+<h3 id="dependencies">
+  Dependencies
+  <a href="#dependencies" class="hanchor" ariaLabel="Anchor"></a>
+</h3>
+<ul>
+<li>Keyston: This provides identity and authentication for all OpenStack services.</li>
+<li>Glance: This provides the compute image repository. All compute instances launch from glance images.</li>
+<li>Neutron: This is responsible for provisioning the virtual or physical networks that compute instances connect to on boot.</li>
+<li>Placement: This is responsible for tracking inventory of resources available in a cloud and assisting in choosing which provider of those resources will be used when creating a virtual machine.
+<em>It can also integrate with other services to include: persistent block storage, encrypted disks, and baremetal compute instances.</em></li>
+</ul>
+
+<h3 id="tools-for-using-nova">
+  Tools for using Nova
+  <a href="#tools-for-using-nova" class="hanchor" ariaLabel="Anchor"></a>
+</h3>
+<ul>
+<li>[[#Horizon]]: The official web UI for the OpenStack Project.</li>
+<li><a href="https://docs.openstack.org/python-openstackclient/latest/">Openstack client</a> : The official CLI for OpenStack Projects. You should use this as your CLI for most things, it includes not just nova commands but also commands for most of the projects in OpenStack.</li>
+<li><a href="https://docs.openstack.org/python-novaclient/latest/user/shell.html">Nova client</a> :For some very advanced features (or administrative commands) of nova you may need to use nova client. It is still supported, but the <code>openstack</code> cli is recommended.</li>
+</ul>
+
+<h2 id="zuncontainers-service">
+  ZUN(Containers Service)
+  <a href="#zuncontainers-service" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Zun is an OpenStack Container service. It aims to provide an API service for running application containers without the need to manage servers or clusters.</p>
+
+<h3 id="dependencies-1">
+  Dependencies
+  <a href="#dependencies-1" class="hanchor" ariaLabel="Anchor"></a>
+</h3>
+<ul>
+<li>[[#KEYSTONE (Identity service)]]</li>
+<li>[[#NEUTRON]]</li>
+<li><a href="https://docs.openstack.org/kuryr-libnetwork/latest/readme.html#kuryr-libnetwork">Kuryr-libnetwork</a>: Kuryr-libnetwork is <a href="https://github.com/openstack/kuryr">Kuryr’s</a> Docker libnetwork driver that uses Neutron to provide networking services. It provides containerised images for the common Neutron plugins.
+other optional services:</li>
+</ul>
+<ul>
+<li>Cinder: Cinder is the OpenStack Block Storage service for providing volumes to Nova virtual machines, Ironic bare metal hosts, containers and more.</li>
+<li>Heat: Heat is a service to orchestrate composite cloud applications using a declarative template format through an OpenStack-native REST API.</li>
+<li>Glance</li>
+</ul>
+
+<h1 id="hardware-lifecycle">
+  Hardware Lifecycle
+  <a href="#hardware-lifecycle" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+
+<h2 id="ironic-bare-metal-provisioning">
+  IRONIC (Bare metal provisioning)
+  <a href="#ironic-bare-metal-provisioning" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Ironic is an OpenStack project which provisions bare metal (as opposed to virtual) machines. It may be used independently or as part of an OpenStack Cloud, and integrates with the OpenStack Identity (keystone), Compute (nova), Network (neutron), Image (glance), and Object (swift) services.
+It provides the cloud operator with a unified interface to a heterogeneous fleet of servers while also providing the Compute service with an interface that allows physical servers to be managed as though they were virtual machines.</p>
+
+<h1 id="storage">
+  Storage
+  <a href="#storage" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+
+<h2 id="swift-object-store">
+  SWIFT (Object store)
+  <a href="#swift-object-store" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Swift is a highly available, distributed, eventually consistent object/blob store.
+Swift is ideal for storing unstructured data that can grow without bound.</p>
+
+<h2 id="cinder-block-storage">
+  CINDER (Block Storage)
+  <a href="#cinder-block-storage" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Cinder is the OpenStack Block Storage service for providing volumes to Nova virtual machines, Ironic bare metal hosts, containers and more.
+Cinder goals:</p>
+<ul>
+<li><strong>Component based architecture</strong>: Quickly add new behaviors</li>
+<li><strong>Highly available</strong>: Scale to very serious workloads</li>
+<li><strong>Fault-Tolerant</strong>: Isolated processes avoid cascading failures</li>
+<li><strong>Recoverable</strong>: Failures should be easy to diagnose, debug, and rectify</li>
+<li><strong>Open Standards</strong>: Be a reference implementation for a community-driven api</li>
+</ul>
+
+<h3 id="dependencies-2">
+  Dependencies
+  <a href="#dependencies-2" class="hanchor" ariaLabel="Anchor"></a>
+</h3>
+<ul>
+<li>keystone</li>
+</ul>
+
+<h3 id="tools-for-using-cinder">
+  Tools for using cinder
+  <a href="#tools-for-using-cinder" class="hanchor" ariaLabel="Anchor"></a>
+</h3>
+<ul>
+<li>Horizon</li>
+<li>Openstack client</li>
+</ul>
+<ul>
+<li><a href="https://docs.openstack.org/python-cinderclient/latest/user/shell.html">Cinder Client</a>: The <strong>openstack</strong> CLI is recommended, but there are some advanced features and administrative commands that are not yet available there. For CLI access to these commands, the <strong>cinder</strong> CLI can be used instead.</li>
+</ul>
+
+<h1 id="networking">
+  Networking
+  <a href="#networking" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+
+<h2 id="neutron">
+  NEUTRON
+  <a href="#neutron" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Neutron is an OpenStack project to provide “network connectivity as a service” between interface devices, managed by other OpenStack services (e.g., nova). It implements the <a href="https://docs.openstack.org/api-ref/network/">OpenStack Networking API</a>.</p>
+
+<h3 id="dependencies-3">
+  Dependencies
+  <a href="#dependencies-3" class="hanchor" ariaLabel="Anchor"></a>
+</h3>
+<ul>
+<li>[[#KEYSTONE (Identity service)]]</li>
+</ul>
+
+<h1 id="orchestration">
+  Orchestration
+  <a href="#orchestration" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+
+<h2 id="heat">
+  HEAT
+  <a href="#heat" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Heat is a service to orchestrate composite cloud applications using a declarative template format through an OpenStack-native REST API.
+Heat provides a template based orchestration for describing a cloud application.
+A Heat template describes the infrastructure for a cloud application in text files which are readable and writable by humans, and can be managed by version control tools.</p>
+
+<h1 id="web-frontends">
+  Web frontends
+  <a href="#web-frontends" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+
+<h2 id="horizon">
+  Horizon
+  <a href="#horizon" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>a web based user interface to OpenStack services including Nova, Swift, Keystone, etc.
+Horizon ships with three central dashboards:</p>
+<ul>
+<li>User Dashboard</li>
+<li>System Dashboard</li>
+<li>Settings” dashboard.
+Between these three they cover the core OpenStack applications and deliver on Core Support.
+The Horizon application also ships with a set of API abstractions for the core OpenStack projects in order to provide a consistent, stable set of reusable methods for developers. Using these abstractions, developers working on Horizon don’t need to be intimately familiar with the APIs of each OpenStack project.</li>
+</ul>
+
+<h1 id="shared-services">
+  Shared Services
+  <a href="#shared-services" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+
+<h2 id="glance-image-services">
+  Glance (Image services)
+  <a href="#glance-image-services" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>The Image service (glance) project provides a service where users can upload and discover data assets that are meant to be used with other services. This currently includes <em>images</em> and <em>metadata definitions</em>.</p>
+
+<h3 id="images">
+  Images
+  <a href="#images" class="hanchor" ariaLabel="Anchor"></a>
+</h3>
+<p>discovering, registering, and retrieving virtual machine (VM) images. Glance has a RESTful API that allows querying of VM image metadata as well as retrieval of the actual image.</p>
+
+<h3 id="metadata-definitions">
+  Metadata Definitions
+  <a href="#metadata-definitions" class="hanchor" ariaLabel="Anchor"></a>
+</h3>
+<p>Glance hosts a <em>metadefs</em> catalog. This provides the OpenStack community with a way to programmatically determine various metadata key names and valid values that can be applied to OpenStack resources.
+Note that what we’re talking about here is simply a <em>catalog</em>; the keys and values don’t actually do anything unless they are applied to individual OpenStack resources using the APIs or client tools provided by the services responsible for those resources.</p>
+
+<h2 id="keystone-identity-service">
+  KEYSTONE (Identity service)
+  <a href="#keystone-identity-service" class="hanchor" ariaLabel="Anchor"></a>
+</h2>
+<p>Keystone is an OpenStack service that provides API client authentication, service discovery, and distributed multi-tenant authorization by implementing OpenStack’s Identity API.</p>
+
+<h3 id="tools-for-using-keystone">
+  Tools for using keystone
+  <a href="#tools-for-using-keystone" class="hanchor" ariaLabel="Anchor"></a>
+</h3>
+<p>keystone can be managed through cli management utilities:</p>
+<ul>
+<li>keystone-manage: the command line tool which interacts with the Keystone service to initialize and update data within Keystone. Generally, <code>keystone-manage</code> is only used for operations that cannot be accomplished with the HTTP API, such data import/export and database migrations.</li>
+<li>keystone-status: command line tool that helps operators upgrade their deployment.</li>
+</ul>
+
+<h3 id="advanced-features">
+  Advanced features
+  <a href="#advanced-features" class="hanchor" ariaLabel="Anchor"></a>
+</h3>
+<p>keystone provides other more advanced features like:</p>
+<ul>
+<li>Unified Limits: limits can be used by services to enforce quota on resources across OpenStack.</li>
+<li>Resource Options: options are used to control specific features or behaviors within keystone.</li>
+<li>Credential Encryption:  keystone encrypts all credentials stored in the default <code>sql</code> backend. Credentials are encrypted with the same mechanism used to encrypt Fernet tokens, <code>fernet</code>. Keystone provides only one type of credential encryption but the encryption provider is pluggable in the event you wish to supply a custom implementation.</li>
+</ul>
+
+<h1 id="webography">
+  Webography
+  <a href="#webography" class="hanchor" ariaLabel="Anchor"></a>
+</h1>
+<p><a href="https://www.openstack.org/software/project-navigator/openstack-components#openstack-services">OpenStack Services</a>
+<a href="https://docs.openstack.org/kuryr-libnetwork/latest/readme.html#kuryr-libnetwork">Kuryr-libnetwork</a>
+<a href="https://docs.openstack.org/ironic/latest/">Ironic</a>
+<a href="https://docs.openstack.org/swift/latest/">Swift</a>
+<a href="https://docs.openstack.org/cinder/latest/">Cinder</a>
+<a href="https://docs.openstack.org/neutron/latest/">Neutron</a>
+<a href="https://docs.openstack.org/heat/latest/">Heat</a>
+<a href="https://docs.openstack.org/horizon/latest/">Horizon</a>
+<a href="https://docs.openstack.org/horizon/latest/contributor/intro.html#contributor-intro">Horizon Basics</a>
+<a href="https://docs.openstack.org/keystone/latest/">Keystone</a>
+<a href="https://docs.openstack.org/keystone/latest/admin/unified-limits.html">Unified limits</a>
+<a href="https://docs.openstack.org/keystone/latest/admin/resource-options.html">Resource options</a>
+<a href="https://docs.openstack.org/keystone/latest/admin/credential-encryption.html">Credential encryptiuon</a>
+<a href="https://docs.openstack.org/glance/latest/">Glance</a></p>
+
+      </div>
 
 
     <footer class="post-footer">
@@ -100,7 +406,7 @@
           </main>
           <footer class="site-footer">
 <p class="buildinfo">
-  <time datetime="2023-07-29 13:13:07 IST">Site built on: 2023-07-29 13:13:07 IST</time>
+  <time datetime="2023-07-29 13:25:38 IST">Site built on: 2023-07-29 13:25:38 IST</time>
 </p>
 <div class="copyright">
   <p>© Khalil Chettaoui
