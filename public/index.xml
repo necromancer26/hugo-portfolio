@@ -1051,6 +1051,7 @@ Installed ArgoCD and Terraform, establishing an efficient DevOps pipeline for co
   Experience
   &lt;a href=&#34;#experience&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
 &lt;/h2&gt;
+&lt;p&gt;&lt;table class=&#34;cv-skills&#34;&gt;&lt;/table&gt;
 &lt;div class=&#34;cv-experience&#34;&gt;
   &lt;div class=&#34;row lead&#34;&gt;
     &lt;span&gt;Aigot SRL&lt;/span&gt;
@@ -1062,7 +1063,7 @@ Installed ArgoCD and Terraform, establishing an efficient DevOps pipeline for co
     &lt;span&gt;PISA, ITALY&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-
+&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Set up a server environment using Terraform, optimizing resource allocation and reducing manual configuration efforts.&lt;/p&gt;
@@ -1072,6 +1073,7 @@ Installed ArgoCD and Terraform, establishing an efficient DevOps pipeline for co
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Installed ArgoCD and Terraform, establishing an efficient DevOps pipeline for continuous integration and deployment, resulting in accelerated software delivery.
+&lt;table class=&#34;cv-skills&#34;&gt;&lt;/table&gt;
 &lt;div class=&#34;cv-experience&#34;&gt;
   &lt;div class=&#34;row lead&#34;&gt;
     &lt;span&gt;Aigot SRL&lt;/span&gt;

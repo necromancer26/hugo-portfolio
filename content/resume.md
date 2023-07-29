@@ -29,7 +29,8 @@ type : "cv"
 --- -->
 
 ## Experience
-
+{{< cv/skills
+    technologies="C, Python, DPDK, NUMA, Data-Plane, TCP/IP, PostgreSQL" >}}
 {{< cv/experience
     name="Aigot SRL"
     date="June 2023 – Present"
@@ -39,6 +40,8 @@ type : "cv"
 - Set up a server environment using Terraform, optimizing resource allocation and reducing manual configuration efforts.
 - Deployed a Kubernetes cluster with Kubespray and Ansible, streamlining application management and enhancing scalability.
 - Installed ArgoCD and Terraform, establishing an efficient DevOps pipeline for continuous integration and deployment, resulting in accelerated software delivery.
+{{< cv/skills
+    technologies="C, Python, DPDK, NUMA, Data-Plane, TCP/IP, PostgreSQL" >}}
 {{< cv/experience
     name="Aigot SRL"
     date="February 2023 – Present"
