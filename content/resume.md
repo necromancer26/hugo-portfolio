@@ -32,7 +32,16 @@ type : "cv"
 
 {{< cv/experience
     name="Aigot SRL"
-    date="February 2021 – Present"
+    date="June 2023 – Present"
+    title="DevOps Engineer Inter"
+    location="PISA, ITALY" >}}
+
+- Set up a server environment using Terraform, optimizing resource allocation and reducing manual configuration efforts.
+- Deployed a Kubernetes cluster with Kubespray and Ansible, streamlining application management and enhancing scalability.
+- Installed ArgoCD and Terraform, establishing an efficient DevOps pipeline for continuous integration and deployment, resulting in accelerated software delivery.
+{{< cv/experience
+    name="Aigot SRL"
+    date="February 2023 – Present"
     title="Fullstack Software Developer"
     location="PISA, ITALY" >}}
 
@@ -44,8 +53,20 @@ type : "cv"
 {{< cv/skills
     technologies="C, Python, DPDK, NUMA, Data-Plane, TCP/IP, PostgreSQL" >}}
 {{< cv/experience
+    name="Polydioms"
+    date="December 2022 – January 2023"
+    title="Freelance Software Engineer"
+    location="PARIS, FRANCE" >}}
+
+- Successfully migrated the WordPress website server from Inmotion Hosting to DigitalOcean, optimizing its performance and reliability.
+- Configured and secured a virtual private server (VPS) specifically tailored for the WordPress website, mitigating the risk of common port abuse.
+- Managed the domain name, efficiently configuring DNS records to redirect traffic from Google to DigitalOcean, encompassing NS, MX , and other relevant DNS records.
+
+{{< cv/skills
+    technologies="Vue, Vite, CPanel, Linux, Github Actions, TCP/IP" >}}
+{{< cv/experience
     name="Association Zone Verte El Menzah"
-    date="February 2021 – Present"
+    date="Novermber 2022 – January 2023"
     title="Software Developer"
     location="Tunis, Tunisia" >}}
 
@@ -56,20 +77,8 @@ type : "cv"
 {{< cv/skills
     technologies="C, Python, DPDK, NUMA, Data-Plane, TCP/IP, PostgreSQL" >}}
 {{< cv/experience
-    name="Polydioms"
-    date="February 2021 – Present"
-    title="Freelance Software Engineer"
-    location="PARIS, FRANCE" >}}
-
-- Successfully migrated the WordPress website server from Inmotion Hosting to DigitalOcean, optimizing its performance and reliability.
-- Configured and secured a virtual private server (VPS) specifically tailored for the WordPress website, mitigating the risk of common port abuse.
-- Managed the domain name, efficiently configuring DNS records to redirect traffic from Google to DigitalOcean, encompassing NS, MX , and other relevant DNS records.
-
-{{< cv/skills
-    technologies="C, Python, DPDK, NUMA, Data-Plane, TCP/IP, PostgreSQL" >}}
-{{< cv/experience
     name="Aigot SRL"
-    date="February 2021 – Present"
+    date="March 2022 – August 2022"
     title="Frontend Developer"
     location="PISA, ITALY" >}}
 
@@ -82,7 +91,7 @@ type : "cv"
 
 {{< cv/experience
     name="Idania"
-    date="21 Dec 2016 – 31 Jul 2019"
+    date="September 2021 – January 2022"
     title="Freelance Web Developer"
     location="HÄRNÖSAND, SWEDEN" >}}
 

@@ -1039,7 +1039,9 @@ features from popular themes and websites as listed below:&lt;/p&gt;
       <pubDate>Fri, 28 Jul 2023 23:04:43 +0100</pubDate>
 
       <guid>/resume/</guid>
-      <description>Experience Aigot SRL February 2021 – Present Fullstack Software Developer PISA, ITALY Utilizing ReactJS to consume backend APIs and optimizing data for improved usability in child components. Developing API endpoints and schemas using mongoose for efficient data management. Implementing cloud services such as AWS S3 object storage to enhance asset and user resource storage. Conducting rigorous debugging and troubleshooting to identify and resolve various bugs and malfunctions. Association Zone Verte El Menzah February 2021 – Present Software Developer Tunis, Tunisia Designed a landing page for an environmental association Established a CI/CD pipeline in order to offer a better experience for future developers who will work on the website Developed Cityzen landing page using ViteJS, Vue3, TailwindCSS and DaisyUI.</description>
+      <description>Experience Aigot SRL June 2023 – Present DevOps Engineer Inter PISA, ITALY Set up a server environment using Terraform, optimizing resource allocation and reducing manual configuration efforts.
+Deployed a Kubernetes cluster with Kubespray and Ansible, streamlining application management and enhancing scalability.
+Installed ArgoCD and Terraform, establishing an efficient DevOps pipeline for continuous integration and deployment, resulting in accelerated software delivery. Aigot SRL February 2023 – Present Fullstack Software Developer PISA, ITALY Utilizing ReactJS to consume backend APIs and optimizing data for improved usability in child components.</description>
       <content>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -1052,7 +1054,28 @@ features from popular themes and websites as listed below:&lt;/p&gt;
 &lt;div class=&#34;cv-experience&#34;&gt;
   &lt;div class=&#34;row lead&#34;&gt;
     &lt;span&gt;Aigot SRL&lt;/span&gt;
-    &lt;span&gt;February 2021 – Present&lt;/span&gt;
+    &lt;span&gt;June 2023 – Present&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row sub&#34;&gt;
+    &lt;span&gt;DevOps Engineer Inter&lt;/span&gt;
+    &lt;span&gt;PISA, ITALY&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Set up a server environment using Terraform, optimizing resource allocation and reducing manual configuration efforts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deployed a Kubernetes cluster with Kubespray and Ansible, streamlining application management and enhancing scalability.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Installed ArgoCD and Terraform, establishing an efficient DevOps pipeline for continuous integration and deployment, resulting in accelerated software delivery.
+&lt;div class=&#34;cv-experience&#34;&gt;
+  &lt;div class=&#34;row lead&#34;&gt;
+    &lt;span&gt;Aigot SRL&lt;/span&gt;
+    &lt;span&gt;February 2023 – Present&lt;/span&gt;
   &lt;/div&gt;
 
   &lt;div class=&#34;row sub&#34;&gt;
@@ -1060,36 +1083,26 @@ features from popular themes and websites as listed below:&lt;/p&gt;
     &lt;span&gt;PISA, ITALY&lt;/span&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Utilizing ReactJS to consume backend APIs and optimizing data for improved usability in child components.&lt;/li&gt;
-&lt;li&gt;Developing API endpoints and schemas using mongoose for efficient data management.&lt;/li&gt;
-&lt;li&gt;Implementing cloud services such as AWS S3 object storage to enhance asset and user resource storage.&lt;/li&gt;
-&lt;li&gt;Conducting rigorous debugging and troubleshooting to identify and resolve various bugs and malfunctions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;table class=&#34;cv-skills&#34;&gt;&lt;/table&gt;
-&lt;div class=&#34;cv-experience&#34;&gt;
-  &lt;div class=&#34;row lead&#34;&gt;
-    &lt;span&gt;Association Zone Verte El Menzah&lt;/span&gt;
-    &lt;span&gt;February 2021 – Present&lt;/span&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&#34;row sub&#34;&gt;
-    &lt;span&gt;Software Developer&lt;/span&gt;
-    &lt;span&gt;Tunis, Tunisia&lt;/span&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
 &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Designed a landing page for an environmental association&lt;/li&gt;
-&lt;li&gt;Established a CI/CD pipeline in order to offer a better experience for future developers who will work on the website&lt;/li&gt;
-&lt;li&gt;Developed Cityzen landing page using ViteJS, Vue3, TailwindCSS and DaisyUI.&lt;/li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Utilizing ReactJS to consume backend APIs and optimizing data for improved usability in child components.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Developing API endpoints and schemas using mongoose for efficient data management.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Implementing cloud services such as AWS S3 object storage to enhance asset and user resource storage.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Conducting rigorous debugging and troubleshooting to identify and resolve various bugs and malfunctions.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;table class=&#34;cv-skills&#34;&gt;&lt;/table&gt;
 &lt;div class=&#34;cv-experience&#34;&gt;
   &lt;div class=&#34;row lead&#34;&gt;
     &lt;span&gt;Polydioms&lt;/span&gt;
-    &lt;span&gt;February 2021 – Present&lt;/span&gt;
+    &lt;span&gt;December 2022 – January 2023&lt;/span&gt;
   &lt;/div&gt;
 
   &lt;div class=&#34;row sub&#34;&gt;
@@ -1106,8 +1119,26 @@ features from popular themes and websites as listed below:&lt;/p&gt;
 &lt;p&gt;&lt;table class=&#34;cv-skills&#34;&gt;&lt;/table&gt;
 &lt;div class=&#34;cv-experience&#34;&gt;
   &lt;div class=&#34;row lead&#34;&gt;
+    &lt;span&gt;Association Zone Verte El Menzah&lt;/span&gt;
+    &lt;span&gt;Novermber 2022 – January 2023&lt;/span&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;row sub&#34;&gt;
+    &lt;span&gt;Software Developer&lt;/span&gt;
+    &lt;span&gt;Tunis, Tunisia&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed a landing page for an environmental association&lt;/li&gt;
+&lt;li&gt;Established a CI/CD pipeline in order to offer a better experience for future developers who will work on the website&lt;/li&gt;
+&lt;li&gt;Developed Cityzen landing page using ViteJS, Vue3, TailwindCSS and DaisyUI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;table class=&#34;cv-skills&#34;&gt;&lt;/table&gt;
+&lt;div class=&#34;cv-experience&#34;&gt;
+  &lt;div class=&#34;row lead&#34;&gt;
     &lt;span&gt;Aigot SRL&lt;/span&gt;
-    &lt;span&gt;February 2021 – Present&lt;/span&gt;
+    &lt;span&gt;March 2022 – August 2022&lt;/span&gt;
   &lt;/div&gt;
 
   &lt;div class=&#34;row sub&#34;&gt;
@@ -1125,7 +1156,7 @@ features from popular themes and websites as listed below:&lt;/p&gt;
 &lt;div class=&#34;cv-experience&#34;&gt;
   &lt;div class=&#34;row lead&#34;&gt;
     &lt;span&gt;Idania&lt;/span&gt;
-    &lt;span&gt;21 Dec 2016 – 31 Jul 2019&lt;/span&gt;
+    &lt;span&gt;September 2021 – January 2022&lt;/span&gt;
   &lt;/div&gt;
 
   &lt;div class=&#34;row sub&#34;&gt;
