@@ -49,17 +49,20 @@ draft = true
 | P1 | 24 |
 | P2 | 3 |
 | P3 | 3 |
-
+```
 P1----------------------P2-P3
 |------------------------|---|---|
 0-----------------------24-27-30
+```
 + waiting time for P1=0 
 + waiting time for P2=24   |---> **Avg waiting time** = (0+24+27)/3 = **17 ms**
 + waiting time for P3=27 
 **another case**
+```
 P2-P3-P1
 |---|---|------------------------|
 0--3--6-----------------------30
+```
 + waiting time for P1= 6 
 + waiting time for P2= 0   |---> **Avg waiting time** = (0+3+6)/3 = **3 ms**
 + waiting time for P3= 3
@@ -79,9 +82,11 @@ P2-P3-P1
 | P3 | 7 |
 | P4 | 3 |
 **Gant chart**
+```
 P4-P1----P3-----P2
 |---|------|-------|--------|
 0--3-----9------16------24
+```
 **waiting time for P1 = 3ms**}
 **waiting time for P2 = 16ms** }==> average waiting time = (3+16+9)/4= *7 ms*
 **waiting time for P3 = 9ms**}=> with fcfs the avg wait would be *10.25 ms*
@@ -93,15 +98,16 @@ P4-P1----P3-----P2
 | P2 | 1 | 4 |
 | P3 | 2 | 9 |
 | P4 | 3 | 5 |
-
-**P1**-P2----P4------**P1**----------P3
-| **-** | - - - - | - - - - - | **- - - - - - -** | - - - - - - - - - |
+```
+P1-P2----P4------**P1**----------P3
+| - | - - - - | - - - - - | **- - - - - - -** | - - - - - - - - - |
 0-1-------5-------10----------17-------------26
+```
 **waiting time for P1 = (0+10) - 1 - 0 = 9ms**}
 **waiting time for P2 = 1- 0 -1 = 0 ms** }==> average waiting time = (26)/4= *6.5 ms*
 **waiting time for P3 = 17 - 0 - 2 = 15 ms**}=> 
 **waiting time for P4= 5 - 0 - 3 = 2 ms**}
-+ ==waiting time = total waiting time - nb of ms process executed - arrival time==
++ **waiting time = total waiting time - nb of ms process executed - arrival time**
 + Although the SJF algorithm is optimal, it cannot be implemented at the level of short-term CPU scheduling.
 + The real difficulty with the SJF algorithm is knowing the length of the next CPU request.
 + There is no way to know the length of the next CPU burst.
@@ -124,10 +130,11 @@ One approach is:
 | P3 | 2 | **4** |
 | P4 | 1 | **5** |
 | P5 | 5 | **2** |
-
+```
 P2-P5-----P1--------------P3--P4
 | - | - - - - - | - - - - - - - - - - | - - | - |
 0-1--------6----------------16-18-19
+```
 **waiting time for P1 = 6 ms**}
 **waiting time for P2 = 0 ms** }==> average waiting time = 41/5= *8.2 ms*
 **waiting time for P3 = 16 ms**}=> 

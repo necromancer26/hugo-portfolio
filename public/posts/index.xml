@@ -124,44 +124,39 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;P1&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-P2-P3&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;0&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;24-27-30&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;P1----------------------P2-P3
+|------------------------|---|---|
+0-----------------------24-27-30&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;waiting time for P1=0&lt;/li&gt;
 &lt;li&gt;waiting time for P2=24   |&amp;mdash;&amp;gt; &lt;strong&gt;Avg waiting time&lt;/strong&gt; = (0+24+27)/3 = &lt;strong&gt;17 ms&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;waiting time for P3=27
-&lt;strong&gt;another case&lt;/strong&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;P2-P3-P1&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;0&amp;ndash;3&amp;ndash;6&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;30&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
+&lt;strong&gt;another case&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;P2-P3-P1
+|---|---|------------------------|
+0--3--6-----------------------30&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
 &lt;li&gt;waiting time for P1= 6&lt;/li&gt;
 &lt;li&gt;waiting time for P2= 0   |&amp;mdash;&amp;gt; &lt;strong&gt;Avg waiting time&lt;/strong&gt; = (0+3+6)/3 = &lt;strong&gt;3 ms&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;waiting time for P3= 3
@@ -213,36 +208,25 @@
 &lt;td&gt;&lt;strong&gt;Gant chart&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;P4-P1&amp;mdash;-P3&amp;mdash;&amp;ndash;P2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&amp;mdash;&lt;/td&gt;
-&lt;td&gt;&amp;mdash;&amp;mdash;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;0&amp;ndash;3&amp;mdash;&amp;ndash;9&amp;mdash;&amp;mdash;16&amp;mdash;&amp;mdash;24&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;waiting time for P1 = 3ms&lt;/strong&gt;}&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;waiting time for P2 = 16ms&lt;/strong&gt; }==&amp;gt; average waiting time = (3+16+9)/4= &lt;em&gt;7 ms&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;waiting time for P3 = 9ms&lt;/strong&gt;}=&amp;gt; with fcfs the avg wait would be &lt;em&gt;10.25 ms&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;waiting time for P4= 0ms&lt;/strong&gt;}&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;P4-P1----P3-----P2
+|---|------|-------|--------|
+0--3-----9------16------24&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;waiting time for P1 = 3ms&lt;/strong&gt;}
+&lt;strong&gt;waiting time for P2 = 16ms&lt;/strong&gt; }==&amp;gt; average waiting time = (3+16+9)/4= &lt;em&gt;7 ms&lt;/em&gt;
+&lt;strong&gt;waiting time for P3 = 9ms&lt;/strong&gt;}=&amp;gt; with fcfs the avg wait would be &lt;em&gt;10.25 ms&lt;/em&gt;
+&lt;strong&gt;waiting time for P4= 0ms&lt;/strong&gt;}&lt;/p&gt;
 
 &lt;h4 id=&#34;example-of-preemptive-sjfs&#34;&gt;
   Example of preemptive SJFS
@@ -279,15 +263,25 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;P1&lt;/strong&gt;-P2&amp;mdash;-P4&amp;mdash;&amp;mdash;&lt;strong&gt;P1&lt;/strong&gt;&amp;mdash;&amp;mdash;&amp;mdash;-P3
-| &lt;strong&gt;-&lt;/strong&gt; | - - - - | - - - - - | &lt;strong&gt;- - - - - - -&lt;/strong&gt; | - - - - - - - - - |
-0-1&amp;mdash;&amp;mdash;-5&amp;mdash;&amp;mdash;-10&amp;mdash;&amp;mdash;&amp;mdash;-17&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-26
-&lt;strong&gt;waiting time for P1 = (0+10) - 1 - 0 = 9ms&lt;/strong&gt;}
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;P1-P2----P4------**P1**----------P3
+| - | - - - - | - - - - - | **- - - - - - -** | - - - - - - - - - |
+0-1-------5-------10----------17-------------26&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;waiting time for P1 = (0+10) - 1 - 0 = 9ms&lt;/strong&gt;}
 &lt;strong&gt;waiting time for P2 = 1- 0 -1 = 0 ms&lt;/strong&gt; }==&amp;gt; average waiting time = (26)/4= &lt;em&gt;6.5 ms&lt;/em&gt;
 &lt;strong&gt;waiting time for P3 = 17 - 0 - 2 = 15 ms&lt;/strong&gt;}=&amp;gt;
 &lt;strong&gt;waiting time for P4= 5 - 0 - 3 = 2 ms&lt;/strong&gt;}&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;==waiting time = total waiting time - nb of ms process executed - arrival time==&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;waiting time = total waiting time - nb of ms process executed - arrival time&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Although the SJF algorithm is optimal, it cannot be implemented at the level of short-term CPU scheduling.&lt;/li&gt;
 &lt;li&gt;The real difficulty with the SJF algorithm is knowing the length of the next CPU request.&lt;/li&gt;
 &lt;li&gt;There is no way to know the length of the next CPU burst.
@@ -345,10 +339,20 @@ One approach is:&lt;/li&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;P2-P5&amp;mdash;&amp;ndash;P1&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;P3&amp;ndash;P4
+
+&lt;div class=&#34;highlight-wrapper&#34;&gt;
+  &lt;div class=&#34;highlight-toolbar&#34;&gt;
+    &lt;span class=&#34;item&#34;&gt;
+      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
+      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+
+
+    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
+  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;P2-P5-----P1--------------P3--P4
 | - | - - - - - | - - - - - - - - - - | - - | - |
-0-1&amp;mdash;&amp;mdash;&amp;ndash;6&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-16-18-19
-&lt;strong&gt;waiting time for P1 = 6 ms&lt;/strong&gt;}
+0-1--------6----------------16-18-19&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;waiting time for P1 = 6 ms&lt;/strong&gt;}
 &lt;strong&gt;waiting time for P2 = 0 ms&lt;/strong&gt; }==&amp;gt; average waiting time = 41/5= &lt;em&gt;8.2 ms&lt;/em&gt;
 &lt;strong&gt;waiting time for P3 = 16 ms&lt;/strong&gt;}=&amp;gt;
 &lt;strong&gt;waiting time for P4=  18 ms&lt;/strong&gt;}

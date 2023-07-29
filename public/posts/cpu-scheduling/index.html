@@ -216,44 +216,39 @@
 </tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr>
-<th>P1&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-P2-P3</th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;24-27-30</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+
+<div class="highlight-wrapper">
+  <div class="highlight-toolbar">
+    <span class="item">
+      <span class="label">Lang:</span>
+      <span class="name"></span>
+    </span>
+
+
+    <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
+  </div><pre tabindex="0"><code>P1----------------------P2-P3
+|------------------------|---|---|
+0-----------------------24-27-30</code></pre></div>
 <ul>
 <li>waiting time for P1=0</li>
 <li>waiting time for P2=24   |&mdash;&gt; <strong>Avg waiting time</strong> = (0+24+27)/3 = <strong>17 ms</strong></li>
 <li>waiting time for P3=27
-<strong>another case</strong>
-<table>
-<thead>
-<tr>
-<th>P2-P3-P1</th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0&ndash;3&ndash;6&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;30</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</li>
+<strong>another case</strong></li>
+</ul>
+
+<div class="highlight-wrapper">
+  <div class="highlight-toolbar">
+    <span class="item">
+      <span class="label">Lang:</span>
+      <span class="name"></span>
+    </span>
+
+
+    <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
+  </div><pre tabindex="0"><code>P2-P3-P1
+|---|---|------------------------|
+0--3--6-----------------------30</code></pre></div>
+<ul>
 <li>waiting time for P1= 6</li>
 <li>waiting time for P2= 0   |&mdash;&gt; <strong>Avg waiting time</strong> = (0+3+6)/3 = <strong>3 ms</strong></li>
 <li>waiting time for P3= 3
@@ -305,36 +300,25 @@
 <td><strong>Gant chart</strong></td>
 <td></td>
 </tr>
-<tr>
-<td>P4-P1&mdash;-P3&mdash;&ndash;P2</td>
-<td></td>
-</tr>
-<tr>
-<td>&mdash;</td>
-<td>&mdash;&mdash;</td>
-</tr>
-<tr>
-<td>0&ndash;3&mdash;&ndash;9&mdash;&mdash;16&mdash;&mdash;24</td>
-<td></td>
-</tr>
-<tr>
-<td><strong>waiting time for P1 = 3ms</strong>}</td>
-<td></td>
-</tr>
-<tr>
-<td><strong>waiting time for P2 = 16ms</strong> }==&gt; average waiting time = (3+16+9)/4= <em>7 ms</em></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>waiting time for P3 = 9ms</strong>}=&gt; with fcfs the avg wait would be <em>10.25 ms</em></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>waiting time for P4= 0ms</strong>}</td>
-<td></td>
-</tr>
 </tbody>
 </table>
+
+<div class="highlight-wrapper">
+  <div class="highlight-toolbar">
+    <span class="item">
+      <span class="label">Lang:</span>
+      <span class="name"></span>
+    </span>
+
+
+    <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
+  </div><pre tabindex="0"><code>P4-P1----P3-----P2
+|---|------|-------|--------|
+0--3-----9------16------24</code></pre></div>
+<p><strong>waiting time for P1 = 3ms</strong>}
+<strong>waiting time for P2 = 16ms</strong> }==&gt; average waiting time = (3+16+9)/4= <em>7 ms</em>
+<strong>waiting time for P3 = 9ms</strong>}=&gt; with fcfs the avg wait would be <em>10.25 ms</em>
+<strong>waiting time for P4= 0ms</strong>}</p>
 
 <h4 id="example-of-preemptive-sjfs">
   Example of preemptive SJFS
@@ -371,15 +355,25 @@
 </tr>
 </tbody>
 </table>
-<p><strong>P1</strong>-P2&mdash;-P4&mdash;&mdash;<strong>P1</strong>&mdash;&mdash;&mdash;-P3
-| <strong>-</strong> | - - - - | - - - - - | <strong>- - - - - - -</strong> | - - - - - - - - - |
-0-1&mdash;&mdash;-5&mdash;&mdash;-10&mdash;&mdash;&mdash;-17&mdash;&mdash;&mdash;&mdash;-26
-<strong>waiting time for P1 = (0+10) - 1 - 0 = 9ms</strong>}
+
+<div class="highlight-wrapper">
+  <div class="highlight-toolbar">
+    <span class="item">
+      <span class="label">Lang:</span>
+      <span class="name"></span>
+    </span>
+
+
+    <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
+  </div><pre tabindex="0"><code>P1-P2----P4------**P1**----------P3
+| - | - - - - | - - - - - | **- - - - - - -** | - - - - - - - - - |
+0-1-------5-------10----------17-------------26</code></pre></div>
+<p><strong>waiting time for P1 = (0+10) - 1 - 0 = 9ms</strong>}
 <strong>waiting time for P2 = 1- 0 -1 = 0 ms</strong> }==&gt; average waiting time = (26)/4= <em>6.5 ms</em>
 <strong>waiting time for P3 = 17 - 0 - 2 = 15 ms</strong>}=&gt;
 <strong>waiting time for P4= 5 - 0 - 3 = 2 ms</strong>}</p>
 <ul>
-<li>==waiting time = total waiting time - nb of ms process executed - arrival time==</li>
+<li><strong>waiting time = total waiting time - nb of ms process executed - arrival time</strong></li>
 <li>Although the SJF algorithm is optimal, it cannot be implemented at the level of short-term CPU scheduling.</li>
 <li>The real difficulty with the SJF algorithm is knowing the length of the next CPU request.</li>
 <li>There is no way to know the length of the next CPU burst.
@@ -437,10 +431,20 @@ One approach is:</li>
 </tr>
 </tbody>
 </table>
-<p>P2-P5&mdash;&ndash;P1&mdash;&mdash;&mdash;&mdash;&ndash;P3&ndash;P4
+
+<div class="highlight-wrapper">
+  <div class="highlight-toolbar">
+    <span class="item">
+      <span class="label">Lang:</span>
+      <span class="name"></span>
+    </span>
+
+
+    <button class="item right outline brighter hide js-btn-copy-code">Copy</button>
+  </div><pre tabindex="0"><code>P2-P5-----P1--------------P3--P4
 | - | - - - - - | - - - - - - - - - - | - - | - |
-0-1&mdash;&mdash;&ndash;6&mdash;&mdash;&mdash;&mdash;&mdash;-16-18-19
-<strong>waiting time for P1 = 6 ms</strong>}
+0-1--------6----------------16-18-19</code></pre></div>
+<p><strong>waiting time for P1 = 6 ms</strong>}
 <strong>waiting time for P2 = 0 ms</strong> }==&gt; average waiting time = 41/5= <em>8.2 ms</em>
 <strong>waiting time for P3 = 16 ms</strong>}=&gt;
 <strong>waiting time for P4=  18 ms</strong>}
@@ -550,7 +554,7 @@ One approach is:</li>
           </main>
           <footer class="site-footer">
 <p class="buildinfo">
-  <time datetime="2023-07-29 13:37:24 IST">Site built on: 2023-07-29 13:37:24 IST</time>
+  <time datetime="2023-07-29 13:43:46 IST">Site built on: 2023-07-29 13:43:46 IST</time>
 </p>
 <div class="copyright">
   <p>© Khalil Chettaoui
