@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to Blowfish! :tada: on Blowfish</title>
+    <title>Welcome to my website! :ninja: on khalil chettatoui</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Welcome to Blowfish! :tada: on Blowfish</description>
+    <description>Recent content in Welcome to my website! :ninja: on khalil chettatoui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2023 Blowfish</copyright>
-    <lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2023 Hello </copyright>
+    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multiple Authors</title>
       <link>http://localhost:1313/samples/multiple-authors/</link>
@@ -263,17 +263,6 @@ Blowfish is built using relative URLs throughout the theme.</description>
       <guid>http://localhost:1313/samples/emoji/</guid>
       <description>📖🏞️🧗🏽🐉🧙🏽‍♂️🧚🏽👸</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/samples/emoji/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Recipe Template</title>
-      <link>http://localhost:1313/guides/template/</link>
-      <pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/guides/template/</guid>
-      <description>Thank you for wanting to contribute to Blowfish&amp;rsquo;s community.
-How to start? # This is a template article that will explain how to create a new article for Blowfish&amp;rsquo;s guide section.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/template/cover.png" />
     </item>
     
   </channel>

@@ -21,30 +21,10 @@
   weight = 15
 
 [[main]]
-  name = "Samples"
-  pageRef = "samples"
-  weight = 16
+  name = "Resume"
+  pageRef = "resume"
+  weight = 15
 
-[[main]]
-  name = "Examples"
-  weight = 20
-
-[[main]]
-  name = "Showcase"
-  parent = "Examples"
-  pageRef = "examples"
-  weight = 30
-
-[[main]]
-  name = "Recipes"
-  parent = "Examples"
-  pageRef = "guides"
-  weight = 40
-
-[[main]]
-  name = "Users"
-  pageRef = "users"
-  weight = 90
 
 #[[main]]
 #  name = "Merch"
@@ -57,21 +37,27 @@
 #  weight = 1000
 
 [[main]]
-  identifier = "twitter"
-  pre = "twitter"
-  url = "https://twitter.com/burufugu"
-  weight = 200
+  identifier = "dev"
+  pre = "dev"
+  url = "https://dev.to/khalil06"
+  weight = 300
+
+[[main]]
+  identifier = "linkedin"
+  pre = "linkedin"
+  url = "https://www.linkedin.com/in/khalil-ch/"
+  weight = 300
 
 [[main]]
   identifier = "mastodon"
   pre = "mastodon"
-  url = "https://masto.ai/@blowfish"
+  url = "https://mastodon.social/@necromancer2629"
   weight = 300
 
 [[main]]
   identifier = "github"
   pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
+  url = "https://github.com/necromancer26"
   weight = 400
 
 
