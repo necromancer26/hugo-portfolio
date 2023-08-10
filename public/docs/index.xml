@@ -1,488 +1,168 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docs on Khalil Chettaoui</title>
-    <link>/docs/</link>
-    <description>Recent content in Docs on Khalil Chettaoui</description>
+    <title>Documentation on Blowfish</title>
+    <link>http://localhost:1313/docs/</link>
+    <description>Recent content in Documentation on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
-      <language>en</language>
-      <copyright>© Khalil Chettaoui</copyright>
-      <lastBuildDate>Sat, 29 Jul 2023 10:09:07 +0100</lastBuildDate><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2023 Blowfish</copyright>
+    <lastBuildDate>Wed, 19 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Awk</title>
-      <link>/docs/commands/awk/</link>
-      <pubDate>Fri, 28 Jul 2023 22:57:01 +0100</pubDate>
-
-      <guid>/docs/commands/awk/</guid>
-      <description>upper case the first letter awk &#39;{for(i=1;i&amp;lt;=NF;i++){ $i=toupper(substr($i,1,1)) substr($i,2) }}1&#39; file</description>
-      <content>
-&lt;h1 id=&#34;upper-case-the-first-letter&#34;&gt;
-  upper case the first letter
-  &lt;a href=&#34;#upper-case-the-first-letter&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;awk &#39;{for(i=1;i&amp;lt;=NF;i++){ $i=toupper(substr($i,1,1)) substr($i,2) }}1&#39; file&lt;/code&gt;&lt;/p&gt;
-</content>
+      <title>Welcome to Blowfish</title>
+      <link>http://localhost:1313/docs/welcome/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/welcome/</guid>
+      <description>Blowfish is packed with tons of features. The original aim of Blowfish was to develop a theme that was simple and lightweight. The theme is a fork of Congo and expands its initial vision.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/welcome/featured.png" />
     </item>
+    
     <item>
-      <title>IaC Terraform 🌏 on Azure 🔷</title>
-      <link>/docs/iac/iac-terraform-az/</link>
-      <pubDate>Fri, 28 Jul 2023 22:44:23 +0100</pubDate>
-
-      <guid>/docs/iac/iac-terraform-az/</guid>
-      <description>Khalil Assef CHETTAOUI 4 ARCTIC 5 the following Lab has been conducted on a on a MacOS environment, ZSH as shell, ITerm2 as terminal, homebrew as a package manager i hope this documentation provides help for future students with MacOS environment
-Installation ✅ Installing Terraform on host machine brew tap hashicorp/tap brew install hashicorp/tap/terraform terraform -version output
-Lang: Copy Terraform v1.3.8 on darwin_arm64 Your version of Terraform is out of date!</description>
-      <content>&lt;p&gt;&lt;strong&gt;Khalil Assef CHETTAOUI 4 ARCTIC 5&lt;/strong&gt;
-the following Lab has been conducted on a
-&lt;em&gt;on a MacOS  environment, ZSH as shell, ITerm2 as terminal, homebrew as a package manager&lt;/em&gt;
-i hope this documentation provides help for future students with MacOS environment&lt;/p&gt;
-
-&lt;h1 id=&#34;installation-&#34;&gt;
-  Installation ✅
-  &lt;a href=&#34;#installation-&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h1&gt;
-
-&lt;h2 id=&#34;installing-terraform-on-host-machine&#34;&gt;
-  Installing Terraform on host machine
-  &lt;a href=&#34;#installing-terraform-on-host-machine&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;brew tap hashicorp/tap&lt;/code&gt;
-&lt;code&gt;brew install hashicorp/tap/terraform&lt;/code&gt;
-&lt;code&gt;terraform -version&lt;/code&gt;
-output&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Terraform v1.3.8
-on darwin_arm64
-
-Your version of Terraform is out of date! The latest version
-is 1.3.9. You can update by downloading from https://www.terraform.io/downloads.html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h2 id=&#34;installing-azure-cli&#34;&gt;
-  Installing Azure Cli
-  &lt;a href=&#34;#installing-azure-cli&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;brew update &amp;amp;&amp;amp; brew install azure-cli&lt;/code&gt;
-&lt;code&gt;az version&lt;/code&gt;
-output&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{
-  &amp;#34;azure-cli&amp;#34;: &amp;#34;2.45.0&amp;#34;,
-  &amp;#34;azure-cli-core&amp;#34;: &amp;#34;2.45.0&amp;#34;,
-  &amp;#34;azure-cli-telemetry&amp;#34;: &amp;#34;1.0.8&amp;#34;,
-  &amp;#34;extensions&amp;#34;: {}
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;then we proceed to login through the cli&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[
-  {
-    &amp;#34;cloudName&amp;#34;: &amp;#34;AzureCloud&amp;#34;,
-    &amp;#34;homeTenantId&amp;#34;: &amp;#34;836cc30b-3430-499a-a9ae-92fd7fea5098&amp;#34;,
-    &amp;#34;id&amp;#34;: &amp;#34;92445f10-b3aa-4eae-90ca-1810e2733e30&amp;#34;,
-    &amp;#34;isDefault&amp;#34;: true,
-    &amp;#34;managedByTenants&amp;#34;: [],
-    &amp;#34;name&amp;#34;: &amp;#34;Azure for Students&amp;#34;,
-    &amp;#34;state&amp;#34;: &amp;#34;Enabled&amp;#34;,
-    &amp;#34;tenantId&amp;#34;: &amp;#34;836cc30b-3430-499a-a9ae-92fd7fea5098&amp;#34;,
-    &amp;#34;user&amp;#34;: {
-      &amp;#34;name&amp;#34;: &amp;#34;khalilassef.chettaoui@esprit.tn&amp;#34;,
-      &amp;#34;type&amp;#34;: &amp;#34;user&amp;#34;
-    }
-  }
-]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;account list
-&lt;code&gt;az account list --query &amp;quot;[?user.name==&#39;khalilassef.chettaoui@esprit.tn&#39;].{Name:name,ID:id,Default:isDefault}&amp;quot; --output table&lt;/code&gt;
-=&amp;gt; Output:&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Name                ID                                    Default
-------------------  ------------------------------------  ---------
-Azure for Students  92445f10-b3aa-4eae-90ca-1810e2733e30  True&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;Creation service :
-&lt;code&gt;az ad sp create-for-rbac --name terraformSP --role Contributor&lt;/code&gt;
-=&amp;gt; Output (error):
-&lt;code&gt;Usage error: To create role assignments, specify both --role and --scopes.&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;To fix this issue
-&lt;code&gt;az ad sp create-for-rbac --name terraformSP --role Contributor --scopes /subscriptions/92445f10-b3aa-4eae-90ca-1810e2733e30&lt;/code&gt;
-=&amp;gt; Output :&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;The output includes credentials that you must protect. Be sure that you do not include these credentials in your code or check the credentials into your source control. For more information, see https://aka.ms/azadsp-cli
-{
-  &amp;#34;appId&amp;#34;: &amp;#34;c1f37b0a-4e41-4c3b-8079-51ee9eadd143&amp;#34;,
-  &amp;#34;displayName&amp;#34;: &amp;#34;terraformSP&amp;#34;,
-  &amp;#34;password&amp;#34;: &amp;#34;****************&amp;#34;,
-  &amp;#34;tenant&amp;#34;: &amp;#34;836cc30b-3430-499a-a9ae-92fd7fea5098&amp;#34;
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;Subscription list:
-&lt;code&gt;az account subscription list&lt;/code&gt;
-=&amp;gt; Output:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[
-  {
-    &amp;#34;authorizationSource&amp;#34;: &amp;#34;RoleBased&amp;#34;,
-    &amp;#34;displayName&amp;#34;: &amp;#34;Azure for Students&amp;#34;,
-    &amp;#34;id&amp;#34;: &amp;#34;/subscriptions/92445f10-b3aa-4eae-90ca-1810e2733e30&amp;#34;,
-    &amp;#34;state&amp;#34;: &amp;#34;Enabled&amp;#34;,
-    &amp;#34;subscriptionId&amp;#34;: &amp;#34;92445f10-b3aa-4eae-90ca-1810e2733e30&amp;#34;,
-    &amp;#34;subscriptionPolicies&amp;#34;: {
-      &amp;#34;locationPlacementId&amp;#34;: &amp;#34;Public_2014-09-01&amp;#34;,
-      &amp;#34;quotaId&amp;#34;: &amp;#34;AzureForStudents_2018-01-01&amp;#34;,
-      &amp;#34;spendingLimit&amp;#34;: &amp;#34;On&amp;#34;
-    }
-  }
-]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;defining environment variable on zsh for macos&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;➜ ~ export ARM_SUBSCRIPTION_ID=&amp;#34;92445f10-b3aa-4eae-90ca-1810e2733e30&amp;#34;
-➜ ~ export ARM_TENANT_ID=&amp;#34;836cc30b-3430-499a-a9ae-92fd7fea5098&amp;#34;
-➜ ~ export ARM_CLIENT_ID=&amp;#34;c1f37b0a-4e41-4c3b-8079-51ee9eadd143&amp;#34;
-➜ ~ export ARM_CLIENT_SECRET=&amp;#34;****************&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h1 id=&#34;terraforming-the-environment-&#34;&gt;
-  Terraforming the environment 🌱
-  &lt;a href=&#34;#terraforming-the-environment-&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h1&gt;
-&lt;p&gt;after creating main.tf variables.tf and output.tf
-&lt;code&gt;terraform init&lt;/code&gt;
-=&amp;gt; output&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Initializing the backend...
-
-Initializing provider plugins...
-- Reusing previous version of hashicorp/random from the dependency lock file
-- Reusing previous version of hashicorp/azurerm from the dependency lock file
-- Using previously-installed hashicorp/random v3.4.3
-- Using previously-installed hashicorp/azurerm v2.99.0
-
-Terraform has been successfully initialized!
-
-You may now begin working with Terraform. Try running &amp;#34;terraform plan&amp;#34; to see
-any changes that are required for your infrastructure...
-... &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code&gt;➜ azure-terraform terraform validate returns &lt;/code&gt;Success! The configuration is valid.&lt;code&gt;after adding credentials to main.tf and following the documentation it has come to my knowledge that there&#39;s a section missing in the provided lab on google classroom indeed it is not mentioning the importance of this section for the following steps as i was unable to go through&lt;/code&gt;terraform plan` without errors here is the missing section&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;terraform { 
-	required_providers { 
-	azurerm = { 
-		source = &amp;#34;hashicorp/azurerm&amp;#34; 
-		version = &amp;#34;~&amp;gt;2.0&amp;#34; 
-		} 
-	} 
-} 
-provider &amp;#34;azurerm&amp;#34; { 
-	features {} 
-	subscription_id = &amp;#34;&amp;lt;azure_subscription_id&amp;gt;&amp;#34; 
-	tenant_id = &amp;#34;&amp;lt;azure_subscription_tenant_id&amp;gt;&amp;#34; 
-	client_id = &amp;#34;&amp;lt;service_principal_appid&amp;gt;&amp;#34; 
-	client_secret = &amp;#34;&amp;lt;service_principal_password&amp;gt;&amp;#34; 
-} 
-	# Rest of the code goes here&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;after correcting this issue i applied this command that finally worked
-&lt;code&gt;terraform plan&lt;/code&gt;
-returning&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Success! The configuration is valid.
-
-➜ azure-terraform terraform plan
-
-Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
-  + create
-
-Terraform will perform the following actions:
-
-  # azurerm_resource_group.rg will be created
-  + resource &amp;#34;azurerm_resource_group&amp;#34; &amp;#34;rg&amp;#34; {
-      + id       = (known after apply)
-      + location = &amp;#34;eastus&amp;#34;
-      + name     = (known after apply)
-    }
-
-  # random_pet.rg-name will be created
-  + resource &amp;#34;random_pet&amp;#34; &amp;#34;rg-name&amp;#34; {
-      + id        = (known after apply)
-      + length    = 2
-      + prefix    = &amp;#34;rg&amp;#34;
-      + separator = &amp;#34;-&amp;#34;
-    }
-
-Plan: 2 to add, 0 to change, 0 to destroy.
-
-Changes to Outputs:
-  + resource_group_name = (known after apply)
-
-───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
-Note: You didn&amp;#39;t use the -out option to save this plan, so Terraform can&amp;#39;t guarantee to take exactly these actions if you run &amp;#34;terraform apply&amp;#34; now.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;with the command terraform apply we apply the changes
-&lt;code&gt;terraform apply&lt;/code&gt;
-returning success&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Terraform used the selected providers to generate the following execution plan.
-Resource actions are indicated with the following symbols:
-  + create
-
-Terraform will perform the following actions:
-
-  # azurerm_resource_group.rg will be created
-  + resource &amp;#34;azurerm_resource_group&amp;#34; &amp;#34;rg&amp;#34; {
-      + id       = (known after apply)
-      + location = &amp;#34;eastus&amp;#34;
-      + name     = (known after apply)
-    }
-
-  # random_pet.rg-name will be created
-  + resource &amp;#34;random_pet&amp;#34; &amp;#34;rg-name&amp;#34; {
-      + id        = (known after apply)
-      + length    = 2
-      + prefix    = &amp;#34;rg&amp;#34;
-      + separator = &amp;#34;-&amp;#34;
-    }
-
-Plan: 2 to add, 0 to change, 0 to destroy.
-
-Changes to Outputs:
-  + resource_group_name = (known after apply)
-
-Do you want to perform these actions?
-  Terraform will perform the actions described above.
-  Only &amp;#39;yes&amp;#39; will be accepted to approve.
-
-  Enter a value: yes
-
-random_pet.rg-name: Creating...
-random_pet.rg-name: Creation complete after 0s [id=rg-suited-ibex]
-azurerm_resource_group.rg: Creating...
-azurerm_resource_group.rg: Creation complete after 2s [id=/subscriptions/92445f10-b3aa-4eae-90ca-1810e2733e30/resourceGroups/rg-suited-ibex]
-
-Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
-
-Outputs:
-
-resource_group_name = &amp;#34;rg-suited-ibex&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;the ressource group was created with the screenshot
-&lt;code&gt;terraform state list&lt;/code&gt;
-returns&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;azurerm_resource_group.rg 
-random_pet.rg-name&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;to delete the created ressources
-&lt;code&gt;terraform destroy&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;random_pet.rg-name: Refreshing state... [id=rg-suited-ibex]
-azurerm_resource_group.rg: Refreshing state... [id=/subscriptions/92445f10-b3aa-4eae-90ca-1810e2733e30/resourceGroups/rg-suited-ibex]
-
-Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
-  - destroy
-
-Terraform will perform the following actions:
-
-  # azurerm_resource_group.rg will be destroyed
-  - resource &amp;#34;azurerm_resource_group&amp;#34; &amp;#34;rg&amp;#34; {
-      - id       = &amp;#34;/subscriptions/92445f10-b3aa-4eae-90ca-1810e2733e30/resourceGroups/rg-suited-ibex&amp;#34; -&amp;gt; null
-      - location = &amp;#34;eastus&amp;#34; -&amp;gt; null
-      - name     = &amp;#34;rg-suited-ibex&amp;#34; -&amp;gt; null
-      - tags     = {} -&amp;gt; null
-    }
-
-  # random_pet.rg-name will be destroyed
-  - resource &amp;#34;random_pet&amp;#34; &amp;#34;rg-name&amp;#34; {
-      - id        = &amp;#34;rg-suited-ibex&amp;#34; -&amp;gt; null
-      - length    = 2 -&amp;gt; null
-      - prefix    = &amp;#34;rg&amp;#34; -&amp;gt; null
-      - separator = &amp;#34;-&amp;#34; -&amp;gt; null
-    }
-
-Plan: 0 to add, 0 to change, 2 to destroy.
-
-Changes to Outputs:
-  - resource_group_name = &amp;#34;rg-suited-ibex&amp;#34; -&amp;gt; null
-
-Do you really want to destroy all resources?
-  Terraform will destroy all your managed infrastructure, as shown above.
-  There is no undo. Only &amp;#39;yes&amp;#39; will be accepted to confirm.
-
-  Enter a value: yes
-
-azurerm_resource_group.rg: Destroying... [id=/subscriptions/92445f10-b3aa-4eae-90ca-1810e2733e30/resourceGroups/rg-suited-ibex]
-azurerm_resource_group.rg: Still destroying... [id=/subscriptions/92445f10-b3aa-4eae-90ca-...e2733e30/resourceGroups/rg-suited-ibex, 1m10s elapsed]
-...
-azurerm_resource_group.rg: Destruction complete after 1m20s
-random_pet.rg-name: Destroying... [id=rg-suited-ibex]
-random_pet.rg-name: Destruction complete after 0s
-
-Destroy complete! Resources: 2 destroyed.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h1 id=&#34;terraforming-an-instance-of-a-vm-&#34;&gt;
-  Terraforming an instance of a VM ☁️💻
-  &lt;a href=&#34;#terraforming-an-instance-of-a-vm-&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h1&gt;
-&lt;p&gt;after creating the main.tf inside a directory that i named terraform-instance as described in the homework we proceed to do terraform init
-which returns a success message&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Terraform has been successfully initialized!
-
-You may now begin working with Terraform. Try running &amp;#34;terraform plan&amp;#34; to see
-any changes that are required for your infrastructure. All Terraform commands
-should now work.
-
-If you ever set or change modules or backend configuration for Terraform,
-rerun this command to reinitialize your working directory. If you forget, other
-commands will detect it and remind you to do so if necessary.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;we check the syntaxt with &lt;code&gt;terraform validate&lt;/code&gt; then &lt;code&gt;terraform plan&lt;/code&gt;
-which generates a long success output as shown on the screenshot
-the last output of the &lt;code&gt;terraform apply&lt;/code&gt; is&lt;/p&gt;
-
-&lt;div class=&#34;highlight-wrapper&#34;&gt;
-  &lt;div class=&#34;highlight-toolbar&#34;&gt;
-    &lt;span class=&#34;item&#34;&gt;
-      &lt;span class=&#34;label&#34;&gt;Lang:&lt;/span&gt;
-      &lt;span class=&#34;name&#34;&gt;&lt;/span&gt;
-    &lt;/span&gt;
-
-
-    &lt;button class=&#34;item right outline brighter hide js-btn-copy-code&#34;&gt;Copy&lt;/button&gt;
-  &lt;/div&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Apply complete! Resources: 11 added, 0 changed, 0 destroyed.
-
-Outputs:
-
-tls_private_key = &amp;lt;sensitive&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h1 id=&#34;thank-you-&#34;&gt;
-  Thank you ✨
-  &lt;a href=&#34;#thank-you-&#34; class=&#34;hanchor&#34; ariaLabel=&#34;Anchor&#34;&gt;&lt;/a&gt;
-&lt;/h1&gt;
-&lt;p&gt;This has been a very interesting journey, and i&amp;rsquo;m grateful for all the effort that was put into the tutoring of this course.
-I hope the future promotions will find it as fruitful and useful.
-&lt;strong&gt;Good Bye&lt;/strong&gt;&lt;/p&gt;
-</content>
+      <title>Installation</title>
+      <link>http://localhost:1313/docs/installation/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/installation/</guid>
+      <description>Simply follow the standard Hugo Quick Start procedure to get up and running quickly.
+Detailed installation instructions can be found below. Instructions for updating the theme are also available.
+Installation # These instructions will get you up and running using Hugo and Blowfish from a completely blank state.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/installation/featured.png" />
     </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://localhost:1313/docs/getting-started/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/getting-started/</guid>
+      <description>This section assumes you have already installed the Blowfish theme. The config files that ship with Blowfish contain all of the possible settings that the theme recognises. By default, many of these are commented out but you can simply uncomment them to activate or change a specific feature.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/getting-started/featured.png" />
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>http://localhost:1313/docs/configuration/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/configuration/</guid>
+      <description>Blowfish is a highly customisable theme and uses some of the latest Hugo features to simplify how it is configured.
+The theme ships with a default configuration that gets you up and running with a basic blog or static website.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/configuration/featured.png" />
+    </item>
+    
+    <item>
+      <title>Homepage Layout</title>
+      <link>http://localhost:1313/docs/homepage-layout/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/homepage-layout/</guid>
+      <description>Blowfish provides a fully flexible homepage layout. There are two main templates to choose from with additional settings to adjust the design. Alternatively, you can also provide your own template and have complete control over the homepage content.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/homepage-layout/featured.png" />
+    </item>
+    
+    <item>
+      <title>Front Matter</title>
+      <link>http://localhost:1313/docs/front-matter/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/front-matter/</guid>
+      <description>In addition to the default Hugo front matter parameters, Blowfish adds a number of additional options to customise the presentation of individual articles. All the available theme front matter parameters are listed below.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/front-matter/featured.png" />
+    </item>
+    
+    <item>
+      <title>Thumbnails</title>
+      <link>http://localhost:1313/docs/thumbnails/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/thumbnails/</guid>
+      <description>Thumbnails # Blowfish was enhanced in order to make it easy to add visual support to your posts. To do so, you just need to place an image file (almost all formats are supported but we recommend .</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/thumbnails/featured.png" />
+    </item>
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>http://localhost:1313/docs/shortcodes/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/shortcodes/</guid>
+      <description>In addition to all the default Hugo shortcodes, Blowfish adds a few extras for additional functionality.
+Alert # alert outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/shortcodes/featured.png" />
+    </item>
+    
+    <item>
+      <title>Multiple Authors</title>
+      <link>http://localhost:1313/docs/multi-author/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/multi-author/</guid>
+      <description>Some websites have more than one author contributing with content and therefore require more than a single default author across the entire website. For those use-cases, Blowfish allows users to extend the list of authors using the multiple authors feature.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/multi-author/featured.png" />
+    </item>
+    
+    <item>
+      <title>Partials</title>
+      <link>http://localhost:1313/docs/partials/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/partials/</guid>
+      <description>Analytics # Blowfish provides built-in support for Fathom Analytics and Google Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy.
+Fathom Analytics # To enable Fathom Analytics support, simply provide your Fathom site code in the config/_default/params.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/partials/featured.png" />
+    </item>
+    
+    <item>
+      <title>Content Examples</title>
+      <link>http://localhost:1313/docs/content-examples/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/content-examples/</guid>
+      <description>If you&amp;rsquo;ve been reading the documentation in order, you should now know about all the features and configurations available in Blowfish. This page is designed to pull everything together and offer some worked examples that you might like to use in your Hugo project.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/content-examples/featured.png" />
+    </item>
+    
+    <item>
+      <title>Series</title>
+      <link>http://localhost:1313/docs/series/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/series/</guid>
+      <description>Blowfish provides a feature to group a set of articles together under a &amp;ldquo;series&amp;rdquo;. Placing an article under a series will display the rest of the series articles in each single page and provide a quick way to navigate amongst them.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/series/featured.png" />
+    </item>
+    
+    <item>
+      <title>Advanced Customisation</title>
+      <link>http://localhost:1313/docs/advanced-customisation/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/advanced-customisation/</guid>
+      <description>There are many ways you can make advanced changes to Blowfish. Read below to learn more about what can be customised and the best way of achieving your desired result.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/advanced-customisation/featured.png" />
+    </item>
+    
+    <item>
+      <title>Hosting &amp; Deployment</title>
+      <link>http://localhost:1313/docs/hosting-deployment/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/hosting-deployment/</guid>
+      <description>There are many ways to deploy your Hugo website built with Blowfish. The theme is designed to be flexible in almost any deployment scenario.
+Blowfish is built using relative URLs throughout the theme.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/hosting-deployment/featured.png" />
+    </item>
+    
+    <item>
+      <title>Firebase: Views &amp; Likes</title>
+      <link>http://localhost:1313/docs/firebase-views/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/firebase-views/</guid>
+      <description>In order to be able to support dynamic data across your website we&amp;rsquo;ve added the support to integrate Firebase. This will allow you to use the views feature across lists and posts.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/firebase-views/featured.png" />
+    </item>
+    
   </channel>
 </rss>

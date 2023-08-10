@@ -1,10 +1,502 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Khalil Chettaoui</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on Khalil Chettaoui</description>
+    <title>Tags on Blowfish</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2023 Blowfish</copyright>
+    <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>authors</title>
+      <link>http://localhost:1313/tags/authors/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/authors/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>sample</title>
+      <link>http://localhost:1313/tags/sample/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/sample/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>thumbnail</title>
+      <link>http://localhost:1313/tags/thumbnail/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/thumbnail/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>docs</title>
+      <link>http://localhost:1313/tags/docs/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/docs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>new</title>
+      <link>http://localhost:1313/tags/new/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/new/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>installation</title>
+      <link>http://localhost:1313/tags/installation/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/installation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>config</title>
+      <link>http://localhost:1313/tags/config/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/config/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>icons</title>
+      <link>http://localhost:1313/tags/icons/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/icons/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>shortcodes</title>
+      <link>http://localhost:1313/tags/shortcodes/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/shortcodes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>users</title>
+      <link>http://localhost:1313/tags/users/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/users/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>homepage</title>
+      <link>http://localhost:1313/tags/homepage/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/homepage/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>layouts</title>
+      <link>http://localhost:1313/tags/layouts/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/layouts/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>front matter</title>
+      <link>http://localhost:1313/tags/front-matter/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/front-matter/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>icon</title>
+      <link>http://localhost:1313/tags/icon/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/icon/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>lead</title>
+      <link>http://localhost:1313/tags/lead/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/lead/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>mermaid</title>
+      <link>http://localhost:1313/tags/mermaid/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/mermaid/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>analytics</title>
+      <link>http://localhost:1313/tags/analytics/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/analytics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>comments</title>
+      <link>http://localhost:1313/tags/comments/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/comments/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>favicons</title>
+      <link>http://localhost:1313/tags/favicons/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/favicons/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>partials</title>
+      <link>http://localhost:1313/tags/partials/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/partials/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>privacy</title>
+      <link>http://localhost:1313/tags/privacy/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/privacy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>content</title>
+      <link>http://localhost:1313/tags/content/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/content/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>example</title>
+      <link>http://localhost:1313/tags/example/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/example/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>series</title>
+      <link>http://localhost:1313/tags/series/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/series/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Advanced</title>
+      <link>http://localhost:1313/tags/advanced/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/advanced/</guid>
+      <description>This is the advanced tag. Just like other listing pages in Blowfish, you can add custom content to individual taxonomy terms and it will be displayed at the top of the term listing.</description>
+      
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>http://localhost:1313/tags/css/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/css/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>deployment</title>
+      <link>http://localhost:1313/tags/deployment/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/deployment/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>http://localhost:1313/tags/github/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/github/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>hosting</title>
+      <link>http://localhost:1313/tags/hosting/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/hosting/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>netlify</title>
+      <link>http://localhost:1313/tags/netlify/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/netlify/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>render</title>
+      <link>http://localhost:1313/tags/render/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/render/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>firebase</title>
+      <link>http://localhost:1313/tags/firebase/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/firebase/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>likes</title>
+      <link>http://localhost:1313/tags/likes/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/likes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>views</title>
+      <link>http://localhost:1313/tags/views/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/views/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>http://localhost:1313/tags/html/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/html/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>http://localhost:1313/tags/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/markdown/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>gist</title>
+      <link>http://localhost:1313/tags/gist/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/gist/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>http://localhost:1313/tags/twitter/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/twitter/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>vimeo</title>
+      <link>http://localhost:1313/tags/vimeo/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/vimeo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>youtube</title>
+      <link>http://localhost:1313/tags/youtube/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/youtube/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>latin</title>
+      <link>http://localhost:1313/tags/latin/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/latin/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>text</title>
+      <link>http://localhost:1313/tags/text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/text/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>katex</title>
+      <link>http://localhost:1313/tags/katex/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/katex/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>maths</title>
+      <link>http://localhost:1313/tags/maths/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/maths/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>chart</title>
+      <link>http://localhost:1313/tags/chart/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/chart/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>diagram</title>
+      <link>http://localhost:1313/tags/diagram/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/diagram/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>graph</title>
+      <link>http://localhost:1313/tags/graph/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/graph/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>emoji</title>
+      <link>http://localhost:1313/tags/emoji/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/emoji/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>template</title>
+      <link>http://localhost:1313/tags/template/</link>
+      <pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/template/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
