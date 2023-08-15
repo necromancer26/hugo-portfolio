@@ -20,7 +20,7 @@ title = "khalil chettatoui"
   bio = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
   links = [
     { linkedin = "https://www.linkedin.com/in/khalil-ch/" },
-    { mastodon = "https://mastodon.social/@necromancer2629h" },
+    { mastodon = "https://mastodon.social/@necromancer2629" },
     { github = "https://github.com/necromancer26" },
   ]
 
